@@ -2257,3 +2257,30 @@ Call log:
 2024-05-15T13:05:16.150Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
 2024-05-15T13:05:16.205Z [info]: Method isVisible succeeded
 2024-05-15T13:05:16.371Z [info]: Method isVisible succeeded
+2024-05-15T13:06:27.887Z [info]: Navigating to URL: file:///index.html
+2024-05-15T13:06:27.893Z [info]: Calling method goto with arguments: ["file:///index.html"]
+2024-05-15T13:06:27.975Z [error]: Method goto failed with error: Error: page.apply: net::ERR_FILE_NOT_FOUND at file:///index.html
+Call log:
+  [2m- navigating to "file:///index.html", waiting until "load"[22m
+
+2024-05-15T13:06:51.541Z [info]: Navigating to URL: index.html
+2024-05-15T13:06:51.551Z [info]: Calling method goto with arguments: ["index.html"]
+2024-05-15T13:06:51.609Z [error]: Method goto failed with error: Error: page.apply: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  [2m- navigating to "index.html", waiting until "load"[22m
+
+2024-05-15T13:08:11.593Z [info]: Navigating to URL: file://c:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:08:11.598Z [info]: Calling method goto with arguments: ["file://c:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:08:11.648Z [error]: Method goto failed with error: Error: page.apply: net::ERR_FILE_NOT_FOUND at file:///c:/Users/s4514/dev/js/playwright-framework/tests/index.html
+Call log:
+  [2m- navigating to "file:///c:/Users/s4514/dev/js/playwright-framework/tests/index.html", waiting until "load"[22m
+
+2024-05-15T13:08:42.403Z [info]: Navigating to URL: file://c:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:08:42.408Z [info]: Calling method goto with arguments: ["file://c:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:08:42.552Z [info]: Method goto succeeded
+2024-05-15T13:08:42.556Z [info]: Waiting for selector: #register-container
+2024-05-15T13:08:42.558Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:08:42.682Z [info]: Method waitForSelector succeeded
+2024-05-15T13:08:42.682Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:08:42.683Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:08:42.717Z [info]: Method isVisible succeeded

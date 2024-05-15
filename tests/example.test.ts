@@ -1,10 +1,13 @@
 // tests/registration.test.ts
 import { test, expect } from '@playwright/test';
 import Commands from '../src/commands';
+const path = require('path');
 
 test.beforeEach(async ({ page }) => {
   global.app = new Commands(page);
-  await app.go('http://127.0.0.1:5500/tests/index.html'); // Update with the correct path
+  const filePath = path.resolve(__dirname, 'index.html');
+
+  await app.go(`file://${filePath}`); // Update with the correct path
 });
 
 test('should load registration page', async () => {
