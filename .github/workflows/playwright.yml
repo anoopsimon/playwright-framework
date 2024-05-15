@@ -31,10 +31,10 @@ jobs:
         retention-days: 30
 
     # Deployment steps
-    - name: Copy Playwright report to docs
+    - name: Copy Playwright report contents to docs
       run: |
         mkdir -p docs
-        cp -r playwright-report/ docs/
+        cp -r playwright-report/* docs/
     - name: Deploy to GitHub Pages
       run: |
         git config --global user.name 'github-actions[bot]'
