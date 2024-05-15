@@ -1,0 +1,18 @@
+2024-05-15T12:25:12.336Z [info]: Navigating to URL: https://www.google.com
+2024-05-15T12:25:12.343Z [info]: Calling method goto with arguments: ["https://www.google.com"]
+2024-05-15T12:25:13.712Z [info]: Navigating to URL: https://www.google.com
+2024-05-15T12:25:13.717Z [info]: Calling method goto with arguments: ["https://www.google.com"]
+2024-05-15T12:25:16.602Z [info]: Method goto succeeded
+2024-05-15T12:25:16.603Z [info]: Clicking on selector: .gLFyf
+2024-05-15T12:25:16.604Z [info]: Calling method click with arguments: [".gLFyf"]
+2024-05-15T12:25:17.123Z [info]: Method click succeeded
+2024-05-15T12:25:17.783Z [info]: Navigating to URL: https://www.google.com
+2024-05-15T12:25:17.791Z [info]: Calling method goto with arguments: ["https://www.google.com"]
+2024-05-15T12:25:19.579Z [info]: Method goto succeeded
+2024-05-15T12:25:19.580Z [info]: Clicking on selector: .gLFyf
+2024-05-15T12:25:19.581Z [info]: Calling method click with arguments: [".gLFyf"]
+2024-05-15T12:25:20.877Z [info]: Method click succeeded
+2024-05-15T12:25:21.333Z [info]: Method goto succeeded
+2024-05-15T12:25:21.334Z [info]: Clicking on selector: .gLFyf
+2024-05-15T12:25:21.335Z [info]: Calling method click with arguments: [".gLFyf"]
+2024-05-15T12:25:21.908Z [info]: Method click succeeded
