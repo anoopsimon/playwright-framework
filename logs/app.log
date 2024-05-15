@@ -2797,3 +2797,12 @@ Call log:
 2024-05-15T13:30:08.915Z [info]: Checking visibility of selector: #password:invalid
 2024-05-15T13:30:08.916Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
 2024-05-15T13:30:09.019Z [info]: Method isVisible succeeded
+2024-05-15T23:08:54.285Z [info]: Navigating to URL: file://c:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T23:08:54.288Z [info]: Calling method goto with arguments: ["file://c:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T23:08:54.422Z [info]: Method goto succeeded
+2024-05-15T23:08:54.424Z [info]: Waiting for selector: #register-container
+2024-05-15T23:08:54.425Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T23:08:54.495Z [info]: Method waitForSelector succeeded
+2024-05-15T23:08:54.495Z [info]: Checking visibility of selector: #register-container
+2024-05-15T23:08:54.495Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T23:08:54.513Z [info]: Method isVisible succeeded
