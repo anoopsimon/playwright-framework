@@ -42,4 +42,4 @@ jobs:
         git add docs
         git commit -m 'Update Playwright test results'
         git pull
-        git push origin HEAD:gh-pages
+        git push -f origin HEAD:gh-pages
