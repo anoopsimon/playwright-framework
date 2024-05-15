@@ -44,7 +44,7 @@ jobs:
     - name: Copy Playwright report to docs
       run: |
         mkdir -p docs
-        cp -r playwright-report/index.html docs/
+        cp -r playwright-report/ docs/
     - name: Deploy to GitHub Pages
       run: |
         git config --global user.name 'github-actions[bot]'
