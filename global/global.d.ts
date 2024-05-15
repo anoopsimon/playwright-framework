@@ -2,5 +2,5 @@
 import Commands from '../src/commands';
 
 declare global {
-  var pw: Commands;
+  var app: Commands;
 }

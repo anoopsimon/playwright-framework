@@ -1402,3 +1402,858 @@ Call log:
 2024-05-15T13:02:47.646Z [info]: Checking visibility of selector: #question6:invalid
 2024-05-15T13:02:47.646Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
 2024-05-15T13:02:47.658Z [info]: Method isVisible succeeded
+2024-05-15T13:02:55.752Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:02:55.758Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:02:56.096Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:02:56.104Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:02:56.511Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:02:56.517Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:02:56.599Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:02:56.607Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:02:57.523Z [info]: Method goto succeeded
+2024-05-15T13:02:57.527Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:02:57.528Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:02:58.273Z [info]: Method fill succeeded
+2024-05-15T13:02:58.281Z [info]: Method goto succeeded
+2024-05-15T13:02:58.274Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:02:58.275Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:02:58.284Z [info]: Waiting for selector: #register-container
+2024-05-15T13:02:58.285Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:02:58.639Z [info]: Method goto succeeded
+2024-05-15T13:02:58.826Z [info]: Method goto succeeded
+2024-05-15T13:02:58.642Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:02:58.643Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:02:58.840Z [info]: Method click succeeded
+2024-05-15T13:02:58.842Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:02:58.843Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:02:58.830Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:02:58.831Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:02:58.928Z [info]: Method isVisible succeeded
+2024-05-15T13:02:59.194Z [info]: Method waitForSelector succeeded
+2024-05-15T13:02:59.195Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:02:59.196Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:02:59.399Z [info]: Method isVisible succeeded
+2024-05-15T13:02:59.486Z [info]: Method fill succeeded
+2024-05-15T13:02:59.488Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:02:59.488Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:02:59.513Z [info]: Method fill succeeded
+2024-05-15T13:02:59.514Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:02:59.515Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:03:00.041Z [info]: Method fill succeeded
+2024-05-15T13:03:00.042Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:03:00.043Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:03:00.186Z [info]: Method click succeeded
+2024-05-15T13:03:00.187Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:03:00.188Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:03:00.219Z [info]: Method isVisible succeeded
+2024-05-15T13:03:00.282Z [info]: Method fill succeeded
+2024-05-15T13:03:00.283Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:03:00.284Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:03:00.624Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:00.626Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:00.743Z [info]: Method fill succeeded
+2024-05-15T13:03:00.744Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:03:00.744Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:03:00.856Z [info]: Method fill succeeded
+2024-05-15T13:03:00.857Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:03:00.857Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:03:01.184Z [info]: Method fill succeeded
+2024-05-15T13:03:01.184Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:03:01.185Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:03:01.278Z [info]: Method fill succeeded
+2024-05-15T13:03:01.279Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:03:01.279Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:03:01.362Z [info]: Method fill succeeded
+2024-05-15T13:03:01.363Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:03:01.363Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:03:01.458Z [info]: Method fill succeeded
+2024-05-15T13:03:01.459Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:03:01.459Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:03:01.579Z [info]: Method fill succeeded
+2024-05-15T13:03:01.580Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:03:01.580Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:03:01.696Z [info]: Method fill succeeded
+2024-05-15T13:03:01.697Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:03:01.697Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:03:01.739Z [info]: Method goto succeeded
+2024-05-15T13:03:01.742Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:03:01.742Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:03:01.784Z [info]: Method fill succeeded
+2024-05-15T13:03:01.785Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:03:01.785Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:03:01.915Z [info]: Method fill succeeded
+2024-05-15T13:03:01.916Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:03:01.916Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:03:02.081Z [info]: Method fill succeeded
+2024-05-15T13:03:02.084Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:02.085Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:02.082Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:02.083Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:02.108Z [info]: Method fill succeeded
+2024-05-15T13:03:02.108Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:02.109Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:02.325Z [info]: Method click succeeded
+2024-05-15T13:03:02.325Z [info]: Waiting for selector: #success-container
+2024-05-15T13:03:02.326Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:03:02.400Z [info]: Method click succeeded
+2024-05-15T13:03:02.402Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:03:02.402Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:03:02.459Z [info]: Method isVisible succeeded
+2024-05-15T13:03:02.473Z [info]: Method waitForSelector succeeded
+2024-05-15T13:03:02.473Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:03:02.473Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:03:02.590Z [info]: Method isVisible succeeded
+2024-05-15T13:03:02.853Z [info]: Method goto succeeded
+2024-05-15T13:03:02.858Z [info]: Filling selector: #password with text: 
+2024-05-15T13:03:02.859Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:03:03.231Z [info]: Method fill succeeded
+2024-05-15T13:03:03.231Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:03.232Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:03.261Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:03.262Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:03.665Z [info]: Method click succeeded
+2024-05-15T13:03:03.667Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:03:03.667Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:03:03.701Z [info]: Method isVisible succeeded
+2024-05-15T13:03:03.919Z [info]: Method goto succeeded
+2024-05-15T13:03:03.924Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:03:03.925Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:03:04.129Z [info]: Method fill succeeded
+2024-05-15T13:03:04.130Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:04.131Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:04.356Z [info]: Method click succeeded
+2024-05-15T13:03:04.357Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:03:04.357Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:03:04.381Z [info]: Method isVisible succeeded
+2024-05-15T13:03:04.944Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:04.945Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:05.048Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:05.048Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:05.184Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:05.186Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:05.319Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:05.320Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:05.538Z [info]: Method goto succeeded
+2024-05-15T13:03:05.539Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:03:05.540Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:03:05.563Z [info]: Method goto succeeded
+2024-05-15T13:03:05.564Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:03:05.565Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:03:05.600Z [info]: Method goto succeeded
+2024-05-15T13:03:05.601Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:03:05.602Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:03:05.822Z [info]: Method goto succeeded
+2024-05-15T13:03:05.833Z [info]: Method fill succeeded
+2024-05-15T13:03:05.823Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:03:05.824Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:03:05.834Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:05.834Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:05.994Z [info]: Method fill succeeded
+2024-05-15T13:03:05.994Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:05.995Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:06.023Z [info]: Method fill succeeded
+2024-05-15T13:03:06.024Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:06.024Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:06.099Z [info]: Method fill succeeded
+2024-05-15T13:03:06.101Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:06.101Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:06.161Z [info]: Method click succeeded
+2024-05-15T13:03:06.162Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:03:06.162Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:03:06.193Z [info]: Method isVisible succeeded
+2024-05-15T13:03:06.220Z [info]: Method click succeeded
+2024-05-15T13:03:06.221Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:03:06.222Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:03:06.252Z [info]: Method click succeeded
+2024-05-15T13:03:06.254Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:03:06.254Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:03:06.285Z [info]: Method isVisible succeeded
+2024-05-15T13:03:06.340Z [info]: Method click succeeded
+2024-05-15T13:03:06.348Z [info]: Method isVisible succeeded
+2024-05-15T13:03:06.340Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:03:06.341Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:03:06.371Z [info]: Method isVisible succeeded
+2024-05-15T13:03:13.187Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:13.205Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:13.193Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:13.212Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:13.377Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:13.400Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:13.383Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:13.405Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:13.486Z [info]: Method goto succeeded
+2024-05-15T13:03:13.492Z [info]: Method goto succeeded
+2024-05-15T13:03:13.489Z [info]: Waiting for selector: #register-container
+2024-05-15T13:03:13.490Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:03:13.495Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:03:13.496Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:03:13.591Z [info]: Method goto succeeded
+2024-05-15T13:03:13.618Z [info]: Method goto succeeded
+2024-05-15T13:03:13.594Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:03:13.595Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:03:13.622Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:03:13.623Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:03:13.855Z [info]: Method waitForSelector succeeded
+2024-05-15T13:03:13.856Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:03:13.857Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:03:13.884Z [info]: Method fill succeeded
+2024-05-15T13:03:13.897Z [info]: Method isVisible succeeded
+2024-05-15T13:03:13.885Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:03:13.885Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:03:13.955Z [info]: Method fill succeeded
+2024-05-15T13:03:13.956Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:13.957Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:14.070Z [info]: Method fill succeeded
+2024-05-15T13:03:14.071Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:03:14.072Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:03:14.112Z [info]: Method fill succeeded
+2024-05-15T13:03:14.113Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:14.113Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:14.176Z [info]: Method fill succeeded
+2024-05-15T13:03:14.177Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:03:14.178Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:03:14.306Z [info]: Method fill succeeded
+2024-05-15T13:03:14.307Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:03:14.308Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:03:14.357Z [info]: Method click succeeded
+2024-05-15T13:03:14.358Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:03:14.360Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:03:14.418Z [info]: Method fill succeeded
+2024-05-15T13:03:14.419Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:03:14.420Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:03:14.480Z [info]: Method isVisible succeeded
+2024-05-15T13:03:14.565Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:14.567Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:14.586Z [info]: Method click succeeded
+2024-05-15T13:03:14.587Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:03:14.587Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:03:14.654Z [info]: Method fill succeeded
+2024-05-15T13:03:14.655Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:03:14.655Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:03:14.772Z [info]: Method isVisible succeeded
+2024-05-15T13:03:14.880Z [info]: Method fill succeeded
+2024-05-15T13:03:14.880Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:03:14.880Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:03:14.909Z [info]: Method goto succeeded
+2024-05-15T13:03:14.911Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:03:14.912Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:03:15.043Z [info]: Method fill succeeded
+2024-05-15T13:03:15.044Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:03:15.044Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:03:15.166Z [info]: Method fill succeeded
+2024-05-15T13:03:15.167Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:03:15.167Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:03:15.246Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:15.247Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:15.290Z [info]: Method fill succeeded
+2024-05-15T13:03:15.291Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:03:15.291Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:03:15.433Z [info]: Method fill succeeded
+2024-05-15T13:03:15.434Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:03:15.434Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:03:15.493Z [info]: Method goto succeeded
+2024-05-15T13:03:15.495Z [info]: Filling selector: #password with text: 
+2024-05-15T13:03:15.496Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:03:15.572Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:15.573Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:15.634Z [info]: Method fill succeeded
+2024-05-15T13:03:15.635Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:15.635Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:15.657Z [info]: Method fill succeeded
+2024-05-15T13:03:15.658Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:03:15.658Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:03:15.835Z [info]: Method fill succeeded
+2024-05-15T13:03:15.835Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:03:15.836Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:03:15.959Z [info]: Method fill succeeded
+2024-05-15T13:03:15.959Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:15.960Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:15.987Z [info]: Method goto succeeded
+2024-05-15T13:03:15.990Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:03:15.990Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:03:16.219Z [info]: Method click succeeded
+2024-05-15T13:03:16.220Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:03:16.220Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:03:16.398Z [info]: Method isVisible succeeded
+2024-05-15T13:03:16.500Z [info]: Method click succeeded
+2024-05-15T13:03:16.500Z [info]: Waiting for selector: #success-container
+2024-05-15T13:03:16.501Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:03:16.603Z [info]: Method fill succeeded
+2024-05-15T13:03:16.604Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:16.605Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:16.656Z [info]: Method waitForSelector succeeded
+2024-05-15T13:03:16.659Z [info]: Method fill succeeded
+2024-05-15T13:03:16.657Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:03:16.657Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:03:16.660Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:16.661Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:16.731Z [info]: Method isVisible succeeded
+2024-05-15T13:03:17.143Z [info]: Method click succeeded
+2024-05-15T13:03:17.144Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:03:17.145Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:03:17.208Z [info]: Method click succeeded
+2024-05-15T13:03:17.209Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:03:17.210Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:03:17.337Z [info]: Method isVisible succeeded
+2024-05-15T13:03:17.377Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:17.377Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:17.403Z [info]: Method isVisible succeeded
+2024-05-15T13:03:17.646Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:17.647Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:17.775Z [info]: Method goto succeeded
+2024-05-15T13:03:17.777Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:03:17.778Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:03:17.912Z [info]: Method goto succeeded
+2024-05-15T13:03:17.914Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:03:17.914Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:03:18.087Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:18.087Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:18.171Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:03:18.172Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:03:18.262Z [info]: Method goto succeeded
+2024-05-15T13:03:18.264Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:03:18.265Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:03:18.301Z [info]: Method fill succeeded
+2024-05-15T13:03:18.301Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:18.302Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:18.354Z [info]: Method goto succeeded
+2024-05-15T13:03:18.355Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:03:18.357Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:03:18.512Z [info]: Method fill succeeded
+2024-05-15T13:03:18.513Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:18.513Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:18.764Z [info]: Method fill succeeded
+2024-05-15T13:03:18.764Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:18.764Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:18.815Z [info]: Method fill succeeded
+2024-05-15T13:03:18.824Z [info]: Method click succeeded
+2024-05-15T13:03:18.816Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:03:18.816Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:03:18.825Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:03:18.825Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:03:18.927Z [info]: Method isVisible succeeded
+2024-05-15T13:03:19.007Z [info]: Method click succeeded
+2024-05-15T13:03:19.007Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:03:19.009Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:03:19.128Z [info]: Method click succeeded
+2024-05-15T13:03:19.128Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:03:19.128Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:03:19.146Z [info]: Method isVisible succeeded
+2024-05-15T13:03:19.396Z [info]: Method isVisible succeeded
+2024-05-15T13:03:19.409Z [info]: Method click succeeded
+2024-05-15T13:03:19.409Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:03:19.410Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:03:19.588Z [info]: Method isVisible succeeded
+2024-05-15T13:04:43.980Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:43.984Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:43.988Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:43.985Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:43.992Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:43.987Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:43.989Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:43.993Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:44.303Z [info]: Method goto succeeded
+2024-05-15T13:04:44.305Z [info]: Method goto succeeded
+2024-05-15T13:04:44.304Z [info]: Method goto succeeded
+2024-05-15T13:04:44.312Z [info]: Method goto succeeded
+2024-05-15T13:04:44.306Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:04:44.307Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:04:44.307Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:04:44.308Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:04:44.315Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:04:44.316Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:04:44.313Z [info]: Waiting for selector: #register-container
+2024-05-15T13:04:44.314Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:04:44.478Z [info]: Method fill succeeded
+2024-05-15T13:04:44.474Z [info]: Method fill succeeded
+2024-05-15T13:04:44.484Z [info]: Method fill succeeded
+2024-05-15T13:04:44.474Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:44.475Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:44.480Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:04:44.480Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:04:44.499Z [info]: Method waitForSelector succeeded
+2024-05-15T13:04:44.485Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:44.486Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:44.501Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:04:44.501Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:04:44.535Z [info]: Method isVisible succeeded
+2024-05-15T13:04:44.534Z [info]: Method fill succeeded
+2024-05-15T13:04:44.536Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:04:44.538Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:04:44.611Z [info]: Method fill succeeded
+2024-05-15T13:04:44.612Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:04:44.613Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:04:44.686Z [info]: Method fill succeeded
+2024-05-15T13:04:44.713Z [info]: Method click succeeded
+2024-05-15T13:04:44.715Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:04:44.716Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:04:44.750Z [info]: Method click succeeded
+2024-05-15T13:04:44.694Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:04:44.713Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:04:44.769Z [info]: Method isVisible succeeded
+2024-05-15T13:04:44.751Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:04:44.752Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:04:44.780Z [info]: Method isVisible succeeded
+2024-05-15T13:04:44.874Z [info]: Method fill succeeded
+2024-05-15T13:04:44.875Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:04:44.876Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:04:44.940Z [info]: Method fill succeeded
+2024-05-15T13:04:44.941Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:04:44.941Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:04:45.001Z [info]: Method fill succeeded
+2024-05-15T13:04:45.001Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:04:45.002Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:04:45.056Z [info]: Method fill succeeded
+2024-05-15T13:04:45.056Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:04:45.056Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:04:45.100Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:45.108Z [info]: Method fill succeeded
+2024-05-15T13:04:45.101Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:45.108Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:04:45.108Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:04:45.167Z [info]: Method fill succeeded
+2024-05-15T13:04:45.167Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:04:45.168Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:04:45.217Z [info]: Method fill succeeded
+2024-05-15T13:04:45.217Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:04:45.217Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:04:45.265Z [info]: Method fill succeeded
+2024-05-15T13:04:45.266Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:04:45.266Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:04:45.310Z [info]: Method goto succeeded
+2024-05-15T13:04:45.325Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:45.314Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:04:45.314Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:04:45.340Z [info]: Method fill succeeded
+2024-05-15T13:04:45.341Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:04:45.341Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:04:45.328Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:45.414Z [info]: Method fill succeeded
+2024-05-15T13:04:45.410Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:45.415Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:45.415Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:45.411Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:45.475Z [info]: Method fill succeeded
+2024-05-15T13:04:45.476Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:45.476Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:45.519Z [info]: Method goto succeeded
+2024-05-15T13:04:45.541Z [info]: Method click succeeded
+2024-05-15T13:04:45.520Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:04:45.521Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:04:45.541Z [info]: Waiting for selector: #success-container
+2024-05-15T13:04:45.542Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:04:45.587Z [info]: Method waitForSelector succeeded
+2024-05-15T13:04:45.588Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:04:45.588Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:04:45.614Z [info]: Method goto succeeded
+2024-05-15T13:04:45.620Z [info]: Method isVisible succeeded
+2024-05-15T13:04:45.615Z [info]: Filling selector: #password with text: 
+2024-05-15T13:04:45.616Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:04:45.686Z [info]: Method fill succeeded
+2024-05-15T13:04:45.687Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:45.688Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:45.714Z [info]: Method click succeeded
+2024-05-15T13:04:45.715Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:04:45.715Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:04:45.736Z [info]: Method isVisible succeeded
+2024-05-15T13:04:45.828Z [info]: Method fill succeeded
+2024-05-15T13:04:45.829Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:45.829Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:45.946Z [info]: Method click succeeded
+2024-05-15T13:04:45.946Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:04:45.947Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:04:45.960Z [info]: Method isVisible succeeded
+2024-05-15T13:04:46.063Z [info]: Method click succeeded
+2024-05-15T13:04:46.064Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:04:46.064Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:04:46.106Z [info]: Method isVisible succeeded
+2024-05-15T13:04:46.218Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:46.219Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:46.398Z [info]: Method goto succeeded
+2024-05-15T13:04:46.399Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:04:46.400Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:04:46.440Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:46.440Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:46.552Z [info]: Method fill succeeded
+2024-05-15T13:04:46.552Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:46.552Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:46.613Z [info]: Method goto succeeded
+2024-05-15T13:04:46.615Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:04:46.615Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:04:46.729Z [info]: Method click succeeded
+2024-05-15T13:04:46.729Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:04:46.729Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:04:46.767Z [info]: Method isVisible succeeded
+2024-05-15T13:04:46.813Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:46.813Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:46.823Z [info]: Method fill succeeded
+2024-05-15T13:04:46.824Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:46.824Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:46.868Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:46.868Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:46.991Z [info]: Method goto succeeded
+2024-05-15T13:04:46.992Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:04:46.992Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:04:47.015Z [info]: Method click succeeded
+2024-05-15T13:04:47.015Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:04:47.016Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:04:47.056Z [info]: Method isVisible succeeded
+2024-05-15T13:04:47.071Z [info]: Method goto succeeded
+2024-05-15T13:04:47.078Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:04:47.079Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:04:47.146Z [info]: Method fill succeeded
+2024-05-15T13:04:47.147Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:47.147Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:47.202Z [info]: Method fill succeeded
+2024-05-15T13:04:47.203Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:47.203Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:47.278Z [info]: Method click succeeded
+2024-05-15T13:04:47.278Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:04:47.279Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:04:47.306Z [info]: Method isVisible succeeded
+2024-05-15T13:04:47.809Z [info]: Method click succeeded
+2024-05-15T13:04:47.809Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:04:47.810Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:04:47.824Z [info]: Method isVisible succeeded
+2024-05-15T13:04:56.713Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:56.718Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:56.777Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:56.783Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:56.909Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:56.916Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:57.093Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:04:57.099Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:04:58.516Z [info]: Method goto succeeded
+2024-05-15T13:04:58.542Z [info]: Method goto succeeded
+2024-05-15T13:04:58.566Z [info]: Method goto succeeded
+2024-05-15T13:04:58.523Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:04:58.525Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:04:58.546Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:04:58.548Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:04:58.569Z [info]: Waiting for selector: #register-container
+2024-05-15T13:04:58.570Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:04:58.913Z [info]: Method goto succeeded
+2024-05-15T13:04:58.916Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:04:58.917Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:04:59.155Z [info]: Method fill succeeded
+2024-05-15T13:04:59.157Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:59.158Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:59.259Z [info]: Method waitForSelector succeeded
+2024-05-15T13:04:59.272Z [info]: Method fill succeeded
+2024-05-15T13:04:59.261Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:04:59.261Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:04:59.273Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:04:59.274Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:04:59.423Z [info]: Method isVisible succeeded
+2024-05-15T13:04:59.531Z [info]: Method fill succeeded
+2024-05-15T13:04:59.537Z [info]: Method click succeeded
+2024-05-15T13:04:59.533Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:04:59.533Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:04:59.538Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:04:59.539Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:04:59.567Z [info]: Method isVisible succeeded
+2024-05-15T13:04:59.932Z [info]: Method fill succeeded
+2024-05-15T13:04:59.932Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:04:59.933Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:04:59.982Z [info]: Method click succeeded
+2024-05-15T13:04:59.983Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:04:59.984Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:05:00.007Z [info]: Method fill succeeded
+2024-05-15T13:05:00.007Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:05:00.009Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:05:00.037Z [info]: Method isVisible succeeded
+2024-05-15T13:05:00.119Z [info]: Method fill succeeded
+2024-05-15T13:05:00.120Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:05:00.120Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:05:00.179Z [info]: Method fill succeeded
+2024-05-15T13:05:00.180Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:05:00.181Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:05:00.256Z [info]: Method fill succeeded
+2024-05-15T13:05:00.256Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:05:00.257Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:05:00.318Z [info]: Method fill succeeded
+2024-05-15T13:05:00.318Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:05:00.318Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:05:00.405Z [info]: Method fill succeeded
+2024-05-15T13:05:00.406Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:05:00.406Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:05:00.465Z [info]: Method fill succeeded
+2024-05-15T13:05:00.465Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:05:00.465Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:05:00.519Z [info]: Method fill succeeded
+2024-05-15T13:05:00.519Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:05:00.520Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:05:00.598Z [info]: Method fill succeeded
+2024-05-15T13:05:00.598Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:05:00.599Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:05:00.658Z [info]: Method fill succeeded
+2024-05-15T13:05:00.658Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:05:00.659Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:05:00.727Z [info]: Method fill succeeded
+2024-05-15T13:05:00.727Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:05:00.728Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:05:00.832Z [info]: Method fill succeeded
+2024-05-15T13:05:00.833Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:00.833Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:01.004Z [info]: Method click succeeded
+2024-05-15T13:05:01.004Z [info]: Waiting for selector: #success-container
+2024-05-15T13:05:01.004Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:05:01.053Z [info]: Method waitForSelector succeeded
+2024-05-15T13:05:01.054Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:05:01.054Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:05:01.134Z [info]: Method isVisible succeeded
+2024-05-15T13:05:01.223Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:01.225Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:01.289Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:01.290Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:01.429Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:01.430Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:01.720Z [info]: Method goto succeeded
+2024-05-15T13:05:01.722Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:05:01.723Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:05:01.870Z [info]: Method goto succeeded
+2024-05-15T13:05:01.872Z [info]: Filling selector: #password with text: 
+2024-05-15T13:05:01.873Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:05:01.966Z [info]: Method goto succeeded
+2024-05-15T13:05:01.969Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:05:01.969Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:05:02.204Z [info]: Method fill succeeded
+2024-05-15T13:05:02.205Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:02.205Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:02.238Z [info]: Method fill succeeded
+2024-05-15T13:05:02.239Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:02.239Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:02.257Z [info]: Method fill succeeded
+2024-05-15T13:05:02.258Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:02.258Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:02.456Z [info]: Method click succeeded
+2024-05-15T13:05:02.457Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:05:02.458Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:05:02.487Z [info]: Method click succeeded
+2024-05-15T13:05:02.487Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:05:02.488Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:05:02.511Z [info]: Method isVisible succeeded
+2024-05-15T13:05:02.533Z [info]: Method isVisible succeeded
+2024-05-15T13:05:02.662Z [info]: Method click succeeded
+2024-05-15T13:05:02.663Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:05:02.664Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:05:02.688Z [info]: Method isVisible succeeded
+2024-05-15T13:05:03.569Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:03.569Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:03.798Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:03.798Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:04.008Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:04.008Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:04.002Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:04.033Z [info]: Method goto succeeded
+2024-05-15T13:05:04.035Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:05:04.035Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:05:04.019Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:04.247Z [info]: Method goto succeeded
+2024-05-15T13:05:04.249Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:05:04.249Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:05:04.337Z [info]: Method fill succeeded
+2024-05-15T13:05:04.339Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:04.339Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:04.501Z [info]: Method fill succeeded
+2024-05-15T13:05:04.501Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:04.501Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:04.524Z [info]: Method goto succeeded
+2024-05-15T13:05:04.526Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:05:04.526Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:05:04.627Z [info]: Method goto succeeded
+2024-05-15T13:05:04.629Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:05:04.630Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:05:04.665Z [info]: Method click succeeded
+2024-05-15T13:05:04.668Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:05:04.669Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:05:04.712Z [info]: Method isVisible succeeded
+2024-05-15T13:05:04.886Z [info]: Method click succeeded
+2024-05-15T13:05:04.887Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:05:04.888Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:05:04.935Z [info]: Method fill succeeded
+2024-05-15T13:05:04.932Z [info]: Method isVisible succeeded
+2024-05-15T13:05:04.936Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:04.936Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:05.015Z [info]: Method fill succeeded
+2024-05-15T13:05:05.016Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:05.016Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:05.167Z [info]: Method click succeeded
+2024-05-15T13:05:05.167Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:05:05.167Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:05:05.191Z [info]: Method isVisible succeeded
+2024-05-15T13:05:05.303Z [info]: Method click succeeded
+2024-05-15T13:05:05.303Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:05:05.304Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:05:05.322Z [info]: Method isVisible succeeded
+2024-05-15T13:05:10.645Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:10.652Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:10.893Z [info]: Method goto succeeded
+2024-05-15T13:05:10.895Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:10.895Z [info]: Waiting for selector: #register-container
+2024-05-15T13:05:10.896Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:05:10.901Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:11.113Z [info]: Method goto succeeded
+2024-05-15T13:05:11.116Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:05:11.117Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:05:11.194Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:11.202Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:11.209Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:11.201Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:11.374Z [info]: Method goto succeeded
+2024-05-15T13:05:11.384Z [info]: Method goto succeeded
+2024-05-15T13:05:11.423Z [info]: Method waitForSelector succeeded
+2024-05-15T13:05:11.377Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:05:11.378Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:05:11.388Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:05:11.389Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:05:11.424Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:05:11.425Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:05:11.473Z [info]: Method isVisible succeeded
+2024-05-15T13:05:11.706Z [info]: Method fill succeeded
+2024-05-15T13:05:11.707Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:11.708Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:11.875Z [info]: Method fill succeeded
+2024-05-15T13:05:11.876Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:05:11.877Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:05:11.944Z [info]: Method fill succeeded
+2024-05-15T13:05:11.945Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:11.945Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:11.969Z [info]: Method fill succeeded
+2024-05-15T13:05:11.970Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:05:11.971Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:05:12.036Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:12.037Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:12.064Z [info]: Method fill succeeded
+2024-05-15T13:05:12.065Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:05:12.066Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:05:12.093Z [info]: Method click succeeded
+2024-05-15T13:05:12.094Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:05:12.095Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:05:12.184Z [info]: Method isVisible succeeded
+2024-05-15T13:05:12.188Z [info]: Method goto succeeded
+2024-05-15T13:05:12.189Z [info]: Method fill succeeded
+2024-05-15T13:05:12.191Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:05:12.191Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:05:12.189Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:05:12.190Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:05:12.301Z [info]: Method click succeeded
+2024-05-15T13:05:12.302Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:05:12.303Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:05:12.328Z [info]: Method fill succeeded
+2024-05-15T13:05:12.329Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:05:12.330Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:05:12.391Z [info]: Method isVisible succeeded
+2024-05-15T13:05:12.582Z [info]: Method fill succeeded
+2024-05-15T13:05:12.584Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:05:12.585Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:05:12.706Z [info]: Method fill succeeded
+2024-05-15T13:05:12.707Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:05:12.707Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:05:12.841Z [info]: Method fill succeeded
+2024-05-15T13:05:12.841Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:05:12.841Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:05:12.925Z [info]: Method fill succeeded
+2024-05-15T13:05:12.926Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:12.926Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:12.955Z [info]: Method fill succeeded
+2024-05-15T13:05:12.955Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:05:12.956Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:05:12.986Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:12.987Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:13.071Z [info]: Method fill succeeded
+2024-05-15T13:05:13.071Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:05:13.072Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:05:13.085Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:13.086Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:13.149Z [info]: Method goto succeeded
+2024-05-15T13:05:13.151Z [info]: Filling selector: #password with text: 
+2024-05-15T13:05:13.151Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:05:13.185Z [info]: Method fill succeeded
+2024-05-15T13:05:13.187Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:05:13.187Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:05:13.240Z [info]: Method goto succeeded
+2024-05-15T13:05:13.242Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:05:13.242Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:05:13.291Z [info]: Method fill succeeded
+2024-05-15T13:05:13.291Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:05:13.292Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:05:13.404Z [info]: Method fill succeeded
+2024-05-15T13:05:13.404Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:05:13.405Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:05:13.470Z [info]: Method click succeeded
+2024-05-15T13:05:13.471Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:05:13.471Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:05:13.499Z [info]: Method fill succeeded
+2024-05-15T13:05:13.500Z [info]: Method fill succeeded
+2024-05-15T13:05:13.500Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:13.500Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:13.500Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:13.501Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:13.567Z [info]: Method isVisible succeeded
+2024-05-15T13:05:13.717Z [info]: Method fill succeeded
+2024-05-15T13:05:13.717Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:13.718Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:13.888Z [info]: Method click succeeded
+2024-05-15T13:05:13.889Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:05:13.889Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:05:13.906Z [info]: Method click succeeded
+2024-05-15T13:05:13.906Z [info]: Waiting for selector: #success-container
+2024-05-15T13:05:13.907Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:05:13.995Z [info]: Method isVisible succeeded
+2024-05-15T13:05:14.024Z [info]: Method waitForSelector succeeded
+2024-05-15T13:05:14.024Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:05:14.025Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:05:14.109Z [info]: Method isVisible succeeded
+2024-05-15T13:05:14.118Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:14.119Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:14.204Z [info]: Method click succeeded
+2024-05-15T13:05:14.205Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:05:14.205Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:05:14.399Z [info]: Method isVisible succeeded
+2024-05-15T13:05:14.632Z [info]: Method goto succeeded
+2024-05-15T13:05:14.634Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:05:14.634Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:05:14.889Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:14.889Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:14.980Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:14.981Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:15.056Z [info]: Method goto succeeded
+2024-05-15T13:05:15.061Z [info]: Navigating to URL: http://127.0.0.1:5500/tests/index.html
+2024-05-15T13:05:15.057Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:05:15.057Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:05:15.061Z [info]: Calling method goto with arguments: ["http://127.0.0.1:5500/tests/index.html"]
+2024-05-15T13:05:15.163Z [info]: Method goto succeeded
+2024-05-15T13:05:15.165Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:05:15.165Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:05:15.223Z [info]: Method goto succeeded
+2024-05-15T13:05:15.227Z [info]: Method fill succeeded
+2024-05-15T13:05:15.227Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:15.229Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:15.225Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:05:15.226Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:05:15.403Z [info]: Method fill succeeded
+2024-05-15T13:05:15.403Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:15.404Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:15.475Z [info]: Method fill succeeded
+2024-05-15T13:05:15.476Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:15.476Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:15.526Z [info]: Method fill succeeded
+2024-05-15T13:05:15.527Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:05:15.527Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:05:15.722Z [info]: Method click succeeded
+2024-05-15T13:05:15.723Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:05:15.723Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:05:15.884Z [info]: Method isVisible succeeded
+2024-05-15T13:05:16.054Z [info]: Method click succeeded
+2024-05-15T13:05:16.054Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:05:16.054Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:05:16.093Z [info]: Method click succeeded
+2024-05-15T13:05:16.093Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:05:16.094Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:05:16.142Z [info]: Method isVisible succeeded
+2024-05-15T13:05:16.149Z [info]: Method click succeeded
+2024-05-15T13:05:16.149Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:05:16.150Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:05:16.205Z [info]: Method isVisible succeeded
+2024-05-15T13:05:16.371Z [info]: Method isVisible succeeded
