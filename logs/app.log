@@ -2284,3 +2284,516 @@ Call log:
 2024-05-15T13:08:42.682Z [info]: Checking visibility of selector: #register-container
 2024-05-15T13:08:42.683Z [info]: Calling method isVisible with arguments: ["#register-container"]
 2024-05-15T13:08:42.717Z [info]: Method isVisible succeeded
+2024-05-15T13:29:13.022Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:13.032Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:13.028Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:13.042Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:13.354Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:13.360Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:13.528Z [info]: Method goto succeeded
+2024-05-15T13:29:13.582Z [info]: Method goto succeeded
+2024-05-15T13:29:13.614Z [info]: Method goto succeeded
+2024-05-15T13:29:13.585Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:29:13.587Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:29:13.681Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:13.688Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:14.004Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:13.618Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:29:13.619Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:29:14.062Z [info]: Method goto succeeded
+2024-05-15T13:29:14.089Z [info]: Method fill succeeded
+2024-05-15T13:29:14.090Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:14.091Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:13.934Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:29:13.936Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:29:14.263Z [info]: Method click succeeded
+2024-05-15T13:29:14.264Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:29:14.265Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:29:14.291Z [info]: Method isVisible succeeded
+2024-05-15T13:29:14.376Z [info]: Method fill succeeded
+2024-05-15T13:29:14.377Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:14.378Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:14.440Z [info]: Method fill succeeded
+2024-05-15T13:29:14.441Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:14.441Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:14.065Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:29:14.067Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:29:14.543Z [info]: Method click succeeded
+2024-05-15T13:29:14.544Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:29:14.545Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:29:14.593Z [info]: Method isVisible succeeded
+2024-05-15T13:29:14.614Z [info]: Method click succeeded
+2024-05-15T13:29:14.615Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:29:14.616Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:29:14.658Z [info]: Method isVisible succeeded
+2024-05-15T13:29:14.887Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:14.894Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:15.084Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:14.009Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:15.089Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:15.114Z [info]: Method goto succeeded
+2024-05-15T13:29:15.119Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:29:15.122Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:29:15.403Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:15.412Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:15.550Z [info]: Method fill succeeded
+2024-05-15T13:29:15.551Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:15.552Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:15.634Z [info]: Method goto succeeded
+2024-05-15T13:29:15.638Z [info]: Waiting for selector: #register-container
+2024-05-15T13:29:15.639Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:29:15.807Z [info]: Method click succeeded
+2024-05-15T13:29:15.808Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:29:15.809Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:29:15.880Z [info]: Method isVisible succeeded
+2024-05-15T13:29:15.936Z [info]: Method goto succeeded
+2024-05-15T13:29:15.970Z [info]: Method goto succeeded
+2024-05-15T13:29:15.973Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:29:15.975Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:29:16.166Z [info]: Method waitForSelector succeeded
+2024-05-15T13:29:16.168Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:29:16.168Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:29:16.224Z [info]: Method isVisible succeeded
+2024-05-15T13:29:15.939Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:29:15.942Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:29:16.621Z [info]: Method fill succeeded
+2024-05-15T13:29:16.622Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:29:16.623Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:29:16.686Z [info]: Method fill succeeded
+2024-05-15T13:29:16.687Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:29:16.688Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:29:16.755Z [info]: Method fill succeeded
+2024-05-15T13:29:16.756Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:29:16.760Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:29:16.773Z [info]: Method fill succeeded
+2024-05-15T13:29:16.774Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:16.775Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:16.781Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:16.830Z [info]: Method fill succeeded
+2024-05-15T13:29:16.797Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:16.831Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:29:16.831Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:29:16.884Z [info]: Method fill succeeded
+2024-05-15T13:29:16.885Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:29:16.886Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:29:16.955Z [info]: Method fill succeeded
+2024-05-15T13:29:16.956Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:29:16.956Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:29:17.005Z [info]: Method fill succeeded
+2024-05-15T13:29:17.005Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:29:17.005Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:29:17.031Z [info]: Method goto succeeded
+2024-05-15T13:29:17.058Z [info]: Method fill succeeded
+2024-05-15T13:29:17.059Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:29:17.059Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:29:17.034Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:29:17.036Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:29:17.118Z [info]: Method fill succeeded
+2024-05-15T13:29:17.119Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:29:17.119Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:29:17.187Z [info]: Method fill succeeded
+2024-05-15T13:29:17.188Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:29:17.188Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:29:17.238Z [info]: Method fill succeeded
+2024-05-15T13:29:17.238Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:29:17.238Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:29:17.307Z [info]: Method fill succeeded
+2024-05-15T13:29:17.308Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:29:17.308Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:29:17.368Z [info]: Method fill succeeded
+2024-05-15T13:29:17.369Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:29:17.369Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:29:17.435Z [info]: Method fill succeeded
+2024-05-15T13:29:17.435Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:17.436Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:17.609Z [info]: Method click succeeded
+2024-05-15T13:29:17.608Z [info]: Method fill succeeded
+2024-05-15T13:29:17.610Z [info]: Waiting for selector: #success-container
+2024-05-15T13:29:17.611Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:29:17.609Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:17.610Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:17.662Z [info]: Method waitForSelector succeeded
+2024-05-15T13:29:17.663Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:29:17.664Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:29:17.698Z [info]: Method isVisible succeeded
+2024-05-15T13:29:17.838Z [info]: Method click succeeded
+2024-05-15T13:29:17.839Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:29:17.840Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:29:17.886Z [info]: Method isVisible succeeded
+2024-05-15T13:29:18.067Z [info]: Method fill succeeded
+2024-05-15T13:29:18.101Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:18.102Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:18.494Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:18.500Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:18.922Z [info]: Method goto succeeded
+2024-05-15T13:29:18.769Z [info]: Method click succeeded
+2024-05-15T13:29:18.926Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:29:18.930Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:29:18.936Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:29:18.939Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:29:19.015Z [info]: Method isVisible succeeded
+2024-05-15T13:29:19.045Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:19.052Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:19.328Z [info]: Method fill succeeded
+2024-05-15T13:29:19.330Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:19.331Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:19.584Z [info]: Method click succeeded
+2024-05-15T13:29:19.585Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:29:19.586Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:29:19.605Z [info]: Method isVisible succeeded
+2024-05-15T13:29:19.658Z [info]: Method goto succeeded
+2024-05-15T13:29:19.661Z [info]: Filling selector: #password with text: 
+2024-05-15T13:29:19.662Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:29:21.089Z [info]: Method fill succeeded
+2024-05-15T13:29:21.090Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:21.091Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:22.847Z [info]: Method click succeeded
+2024-05-15T13:29:22.848Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:29:22.849Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:29:22.963Z [info]: Method isVisible succeeded
+2024-05-15T13:29:26.717Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:26.722Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:27.388Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:27.394Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:28.147Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:28.153Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:28.531Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:28.630Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:28.541Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:28.798Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:28.990Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:28.796Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:29.024Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:28.996Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:30.697Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:30.713Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:31.091Z [info]: Method goto succeeded
+2024-05-15T13:29:31.096Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:29:31.097Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:29:31.714Z [info]: Method goto succeeded
+2024-05-15T13:29:31.884Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:32.037Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:32.181Z [info]: Method goto succeeded
+2024-05-15T13:29:31.717Z [info]: Filling selector: #password with text: 
+2024-05-15T13:29:31.718Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:29:32.184Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:29:32.185Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:29:33.220Z [info]: Method goto succeeded
+2024-05-15T13:29:33.473Z [info]: Method fill succeeded
+2024-05-15T13:29:33.224Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:29:33.226Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:29:33.713Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:33.713Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:34.705Z [info]: Method goto succeeded
+2024-05-15T13:29:34.883Z [info]: Method fill succeeded
+2024-05-15T13:29:34.884Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:34.884Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:34.708Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:29:34.709Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:29:35.290Z [info]: Method click succeeded
+2024-05-15T13:29:35.291Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:29:35.299Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:29:35.413Z [info]: Method goto succeeded
+2024-05-15T13:29:35.448Z [info]: Method fill succeeded
+2024-05-15T13:29:35.449Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:35.450Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:35.437Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:29:35.438Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:29:35.697Z [info]: Method isVisible succeeded
+2024-05-15T13:29:35.924Z [info]: Method fill succeeded
+2024-05-15T13:29:35.924Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:29:35.925Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:29:36.027Z [info]: Method goto succeeded
+2024-05-15T13:29:36.319Z [info]: Method click succeeded
+2024-05-15T13:29:36.364Z [info]: Method click succeeded
+2024-05-15T13:29:36.366Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:29:36.367Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:29:36.395Z [info]: Method isVisible succeeded
+2024-05-15T13:29:36.527Z [info]: Method fill succeeded
+2024-05-15T13:29:36.528Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:29:36.529Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:29:36.663Z [info]: Method goto succeeded
+2024-05-15T13:29:36.320Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:29:36.321Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:29:36.030Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:29:36.031Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:29:36.666Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:29:36.667Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:29:36.994Z [info]: Method click succeeded
+2024-05-15T13:29:36.996Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:29:37.099Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:29:37.281Z [info]: Method isVisible succeeded
+2024-05-15T13:29:37.368Z [info]: Method goto succeeded
+2024-05-15T13:29:37.392Z [info]: Method fill succeeded
+2024-05-15T13:29:37.392Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:29:37.393Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:29:37.372Z [info]: Waiting for selector: #register-container
+2024-05-15T13:29:37.530Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:29:37.847Z [info]: Method fill succeeded
+2024-05-15T13:29:37.848Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:37.852Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:38.325Z [info]: Method fill succeeded
+2024-05-15T13:29:38.326Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:29:38.326Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:29:38.390Z [info]: Method fill succeeded
+2024-05-15T13:29:38.391Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:38.392Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:38.654Z [info]: Method fill succeeded
+2024-05-15T13:29:38.655Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:38.656Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:38.721Z [info]: Method fill succeeded
+2024-05-15T13:29:38.723Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:38.733Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:39.276Z [info]: Method fill succeeded
+2024-05-15T13:29:39.277Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:29:39.278Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:29:39.418Z [info]: Method waitForSelector succeeded
+2024-05-15T13:29:39.585Z [info]: Method click succeeded
+2024-05-15T13:29:39.448Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:29:39.480Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:29:39.783Z [info]: Method fill succeeded
+2024-05-15T13:29:39.784Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:29:39.785Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:29:39.587Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:29:39.588Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:29:39.951Z [info]: Method isVisible succeeded
+2024-05-15T13:29:40.109Z [info]: Method isVisible succeeded
+2024-05-15T13:29:40.461Z [info]: Method click succeeded
+2024-05-15T13:29:40.463Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:29:40.469Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:29:40.746Z [info]: Method isVisible succeeded
+2024-05-15T13:29:40.795Z [info]: Method fill succeeded
+2024-05-15T13:29:40.795Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:29:40.795Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:29:40.942Z [info]: Method fill succeeded
+2024-05-15T13:29:40.953Z [info]: Method click succeeded
+2024-05-15T13:29:40.943Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:29:40.943Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:29:40.954Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:29:40.955Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:29:41.008Z [info]: Method isVisible succeeded
+2024-05-15T13:29:41.008Z [info]: Method fill succeeded
+2024-05-15T13:29:41.009Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:29:41.009Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:29:41.129Z [info]: Method fill succeeded
+2024-05-15T13:29:41.129Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:29:41.129Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:29:41.178Z [info]: Method click succeeded
+2024-05-15T13:29:41.179Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:29:41.180Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:29:41.218Z [info]: Method isVisible succeeded
+2024-05-15T13:29:41.218Z [info]: Method fill succeeded
+2024-05-15T13:29:41.219Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:29:41.219Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:29:41.298Z [info]: Method fill succeeded
+2024-05-15T13:29:41.299Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:29:41.299Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:29:41.394Z [info]: Method fill succeeded
+2024-05-15T13:29:41.395Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:29:41.395Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:29:41.503Z [info]: Method fill succeeded
+2024-05-15T13:29:41.504Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:41.505Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:41.695Z [info]: Method click succeeded
+2024-05-15T13:29:41.695Z [info]: Waiting for selector: #success-container
+2024-05-15T13:29:41.696Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:29:41.876Z [info]: Method waitForSelector succeeded
+2024-05-15T13:29:41.877Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:29:41.877Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:29:42.015Z [info]: Method isVisible succeeded
+2024-05-15T13:29:42.373Z [info]: Method isVisible succeeded
+2024-05-15T13:29:50.124Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:50.131Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:50.272Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:50.271Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:50.282Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:50.277Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:50.454Z [info]: Method goto succeeded
+2024-05-15T13:29:50.458Z [info]: Filling selector: #question3 with text: 
+2024-05-15T13:29:50.459Z [info]: Calling method fill with arguments: ["#question3",""]
+2024-05-15T13:29:50.538Z [info]: Method goto succeeded
+2024-05-15T13:29:50.542Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:29:50.544Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:29:50.692Z [info]: Method goto succeeded
+2024-05-15T13:29:50.696Z [info]: Filling selector: #question2 with text: 
+2024-05-15T13:29:50.697Z [info]: Calling method fill with arguments: ["#question2",""]
+2024-05-15T13:29:51.135Z [info]: Method fill succeeded
+2024-05-15T13:29:51.136Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:51.137Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:51.335Z [info]: Method fill succeeded
+2024-05-15T13:29:51.336Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:51.336Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:51.437Z [info]: Method fill succeeded
+2024-05-15T13:29:51.438Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:51.439Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:51.627Z [info]: Method click succeeded
+2024-05-15T13:29:51.628Z [info]: Checking visibility of selector: #question3:invalid
+2024-05-15T13:29:51.629Z [info]: Calling method isVisible with arguments: ["#question3:invalid"]
+2024-05-15T13:29:51.954Z [info]: Method click succeeded
+2024-05-15T13:29:51.969Z [info]: Method isVisible succeeded
+2024-05-15T13:29:51.955Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:29:51.955Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:29:52.397Z [info]: Method click succeeded
+2024-05-15T13:29:52.417Z [info]: Method isVisible succeeded
+2024-05-15T13:29:52.400Z [info]: Checking visibility of selector: #question2:invalid
+2024-05-15T13:29:52.402Z [info]: Calling method isVisible with arguments: ["#question2:invalid"]
+2024-05-15T13:29:52.837Z [info]: Method isVisible succeeded
+2024-05-15T13:29:54.765Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:54.771Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:55.206Z [info]: Method goto succeeded
+2024-05-15T13:29:55.214Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:29:55.217Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:29:55.372Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:55.378Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:29:56.625Z [info]: Method fill succeeded
+2024-05-15T13:29:56.626Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:56.628Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:57.174Z [info]: Method goto succeeded
+2024-05-15T13:29:57.177Z [info]: Filling selector: #question4 with text: 
+2024-05-15T13:29:57.178Z [info]: Calling method fill with arguments: ["#question4",""]
+2024-05-15T13:29:57.329Z [info]: Method click succeeded
+2024-05-15T13:29:57.331Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:29:57.332Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:29:57.903Z [info]: Method fill succeeded
+2024-05-15T13:29:57.905Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:29:57.905Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:29:58.375Z [info]: Method isVisible succeeded
+2024-05-15T13:29:58.679Z [info]: Method click succeeded
+2024-05-15T13:29:58.680Z [info]: Checking visibility of selector: #question4:invalid
+2024-05-15T13:29:58.682Z [info]: Calling method isVisible with arguments: ["#question4:invalid"]
+2024-05-15T13:29:58.717Z [info]: Method isVisible succeeded
+2024-05-15T13:29:59.703Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:29:59.709Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:00.176Z [info]: Method goto succeeded
+2024-05-15T13:30:00.180Z [info]: Waiting for selector: #register-container
+2024-05-15T13:30:00.181Z [info]: Calling method waitForSelector with arguments: ["#register-container"]
+2024-05-15T13:30:00.440Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:00.447Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:00.547Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:00.555Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:00.634Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:00.640Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:00.996Z [info]: Method waitForSelector succeeded
+2024-05-15T13:30:00.997Z [info]: Checking visibility of selector: #register-container
+2024-05-15T13:30:00.998Z [info]: Calling method isVisible with arguments: ["#register-container"]
+2024-05-15T13:30:01.056Z [info]: Method goto succeeded
+2024-05-15T13:30:01.101Z [info]: Method isVisible succeeded
+2024-05-15T13:30:01.059Z [info]: Filling selector: #lastname with text: 
+2024-05-15T13:30:01.060Z [info]: Calling method fill with arguments: ["#lastname",""]
+2024-05-15T13:30:01.225Z [info]: Method goto succeeded
+2024-05-15T13:30:01.253Z [info]: Method goto succeeded
+2024-05-15T13:30:01.256Z [info]: Filling selector: #firstname with text: 
+2024-05-15T13:30:01.257Z [info]: Calling method fill with arguments: ["#firstname",""]
+2024-05-15T13:30:01.236Z [info]: Filling selector: #firstname with text: John
+2024-05-15T13:30:01.238Z [info]: Calling method fill with arguments: ["#firstname","John"]
+2024-05-15T13:30:01.752Z [info]: Method fill succeeded
+2024-05-15T13:30:01.753Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:01.753Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:01.803Z [info]: Method fill succeeded
+2024-05-15T13:30:01.804Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:01.804Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:01.843Z [info]: Method fill succeeded
+2024-05-15T13:30:01.844Z [info]: Filling selector: #lastname with text: Doe
+2024-05-15T13:30:01.845Z [info]: Calling method fill with arguments: ["#lastname","Doe"]
+2024-05-15T13:30:01.934Z [info]: Method fill succeeded
+2024-05-15T13:30:01.935Z [info]: Filling selector: #email with text: john.doe@example.com
+2024-05-15T13:30:01.936Z [info]: Calling method fill with arguments: ["#email","john.doe@example.com"]
+2024-05-15T13:30:02.043Z [info]: Method fill succeeded
+2024-05-15T13:30:02.044Z [info]: Filling selector: #password with text: password123
+2024-05-15T13:30:02.045Z [info]: Calling method fill with arguments: ["#password","password123"]
+2024-05-15T13:30:02.413Z [info]: Method fill succeeded
+2024-05-15T13:30:02.414Z [info]: Filling selector: #question1 with text: 1990-01-01
+2024-05-15T13:30:02.415Z [info]: Calling method fill with arguments: ["#question1","1990-01-01"]
+2024-05-15T13:30:02.526Z [info]: Method click succeeded
+2024-05-15T13:30:02.540Z [info]: Checking visibility of selector: #lastname:invalid
+2024-05-15T13:30:02.545Z [info]: Calling method isVisible with arguments: ["#lastname:invalid"]
+2024-05-15T13:30:02.697Z [info]: Method click succeeded
+2024-05-15T13:30:02.700Z [info]: Checking visibility of selector: #firstname:invalid
+2024-05-15T13:30:02.702Z [info]: Calling method isVisible with arguments: ["#firstname:invalid"]
+2024-05-15T13:30:02.726Z [info]: Method fill succeeded
+2024-05-15T13:30:02.727Z [info]: Filling selector: #question2 with text: 1234567890
+2024-05-15T13:30:02.728Z [info]: Calling method fill with arguments: ["#question2","1234567890"]
+2024-05-15T13:30:02.926Z [info]: Method fill succeeded
+2024-05-15T13:30:02.926Z [info]: Filling selector: #question3 with text: 123 Main St
+2024-05-15T13:30:02.927Z [info]: Calling method fill with arguments: ["#question3","123 Main St"]
+2024-05-15T13:30:02.960Z [info]: Method isVisible succeeded
+2024-05-15T13:30:03.031Z [info]: Method isVisible succeeded
+2024-05-15T13:30:03.230Z [info]: Method fill succeeded
+2024-05-15T13:30:03.231Z [info]: Filling selector: #question4 with text: Anytown
+2024-05-15T13:30:03.231Z [info]: Calling method fill with arguments: ["#question4","Anytown"]
+2024-05-15T13:30:03.354Z [info]: Method fill succeeded
+2024-05-15T13:30:03.355Z [info]: Filling selector: #question5 with text: Anystate
+2024-05-15T13:30:03.355Z [info]: Calling method fill with arguments: ["#question5","Anystate"]
+2024-05-15T13:30:03.480Z [info]: Method fill succeeded
+2024-05-15T13:30:03.481Z [info]: Filling selector: #question6 with text: 12345
+2024-05-15T13:30:03.481Z [info]: Calling method fill with arguments: ["#question6","12345"]
+2024-05-15T13:30:03.658Z [info]: Method fill succeeded
+2024-05-15T13:30:03.659Z [info]: Filling selector: #question7 with text: USA
+2024-05-15T13:30:03.659Z [info]: Calling method fill with arguments: ["#question7","USA"]
+2024-05-15T13:30:03.810Z [info]: Method fill succeeded
+2024-05-15T13:30:03.810Z [info]: Filling selector: #question8 with text: Email
+2024-05-15T13:30:03.810Z [info]: Calling method fill with arguments: ["#question8","Email"]
+2024-05-15T13:30:03.907Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:03.913Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:03.979Z [info]: Method fill succeeded
+2024-05-15T13:30:03.979Z [info]: Filling selector: #question9 with text: First pet name
+2024-05-15T13:30:03.980Z [info]: Calling method fill with arguments: ["#question9","First pet name"]
+2024-05-15T13:30:04.108Z [info]: Method fill succeeded
+2024-05-15T13:30:04.109Z [info]: Filling selector: #question10 with text: Fluffy
+2024-05-15T13:30:04.109Z [info]: Calling method fill with arguments: ["#question10","Fluffy"]
+2024-05-15T13:30:04.269Z [info]: Method fill succeeded
+2024-05-15T13:30:04.269Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:04.270Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:04.894Z [info]: Method click succeeded
+2024-05-15T13:30:04.895Z [info]: Waiting for selector: #success-container
+2024-05-15T13:30:04.895Z [info]: Calling method waitForSelector with arguments: ["#success-container"]
+2024-05-15T13:30:05.045Z [info]: Method waitForSelector succeeded
+2024-05-15T13:30:05.045Z [info]: Checking visibility of selector: #success-container
+2024-05-15T13:30:05.045Z [info]: Calling method isVisible with arguments: ["#success-container"]
+2024-05-15T13:30:05.108Z [info]: Method isVisible succeeded
+2024-05-15T13:30:05.110Z [info]: Method goto succeeded
+2024-05-15T13:30:05.114Z [info]: Filling selector: #question6 with text: 
+2024-05-15T13:30:05.115Z [info]: Calling method fill with arguments: ["#question6",""]
+2024-05-15T13:30:05.593Z [info]: Method fill succeeded
+2024-05-15T13:30:05.594Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:05.595Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:05.980Z [info]: Method click succeeded
+2024-05-15T13:30:05.981Z [info]: Checking visibility of selector: #question6:invalid
+2024-05-15T13:30:05.982Z [info]: Calling method isVisible with arguments: ["#question6:invalid"]
+2024-05-15T13:30:06.044Z [info]: Method isVisible succeeded
+2024-05-15T13:30:07.250Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:07.256Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:07.396Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:07.403Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:07.561Z [info]: Method goto succeeded
+2024-05-15T13:30:07.564Z [info]: Filling selector: #email with text: invalid-email
+2024-05-15T13:30:07.565Z [info]: Calling method fill with arguments: ["#email","invalid-email"]
+2024-05-15T13:30:07.658Z [info]: Navigating to URL: file://C:\Users\s4514\dev\js\playwright-framework\tests\index.html
+2024-05-15T13:30:07.664Z [info]: Calling method goto with arguments: ["file://C:\\Users\\s4514\\dev\\js\\playwright-framework\\tests\\index.html"]
+2024-05-15T13:30:07.738Z [info]: Method goto succeeded
+2024-05-15T13:30:07.741Z [info]: Filling selector: #question1 with text: 
+2024-05-15T13:30:07.742Z [info]: Calling method fill with arguments: ["#question1",""]
+2024-05-15T13:30:07.825Z [info]: Method goto succeeded
+2024-05-15T13:30:07.828Z [info]: Filling selector: #password with text: 
+2024-05-15T13:30:07.829Z [info]: Calling method fill with arguments: ["#password",""]
+2024-05-15T13:30:08.027Z [info]: Method fill succeeded
+2024-05-15T13:30:08.028Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:08.029Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:08.300Z [info]: Method fill succeeded
+2024-05-15T13:30:08.301Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:08.302Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:08.403Z [info]: Method fill succeeded
+2024-05-15T13:30:08.409Z [info]: Method click succeeded
+2024-05-15T13:30:08.404Z [info]: Clicking on selector: button[type="submit"]
+2024-05-15T13:30:08.404Z [info]: Calling method click with arguments: ["button[type=\"submit\"]"]
+2024-05-15T13:30:08.409Z [info]: Checking visibility of selector: #email:invalid
+2024-05-15T13:30:08.410Z [info]: Calling method isVisible with arguments: ["#email:invalid"]
+2024-05-15T13:30:08.491Z [info]: Method isVisible succeeded
+2024-05-15T13:30:08.782Z [info]: Method click succeeded
+2024-05-15T13:30:08.783Z [info]: Checking visibility of selector: #question1:invalid
+2024-05-15T13:30:08.784Z [info]: Calling method isVisible with arguments: ["#question1:invalid"]
+2024-05-15T13:30:08.873Z [info]: Method isVisible succeeded
+2024-05-15T13:30:08.914Z [info]: Method click succeeded
+2024-05-15T13:30:08.915Z [info]: Checking visibility of selector: #password:invalid
+2024-05-15T13:30:08.916Z [info]: Calling method isVisible with arguments: ["#password:invalid"]
+2024-05-15T13:30:09.019Z [info]: Method isVisible succeeded
