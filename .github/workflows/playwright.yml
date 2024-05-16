@@ -34,9 +34,7 @@ jobs:
     - name: Copy Playwright report and logs to docs
       run: |
         mkdir -p docs
-        mkdir -p docs/logs
         cp -r playwright-report/* docs/
-        cp -r logs/* docs/logs/
     - name: Deploy to GitHub Pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
