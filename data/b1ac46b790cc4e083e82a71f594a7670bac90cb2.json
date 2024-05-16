@@ -1,0 +1,1 @@
+{"description":"This test attempts to log into the website using a login and a password. Fails if any error happens.\n\nNote that this test does not test 2-Factor Authentication."}
