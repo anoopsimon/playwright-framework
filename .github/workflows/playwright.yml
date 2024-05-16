@@ -42,8 +42,15 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         
+        # Stash any local changes
+        git stash --include-untracked
+        
+        # Fetch and checkout gh-pages branch
         git fetch origin gh-pages
         git checkout gh-pages
+        
+        # Apply stashed changes
+        git stash pop
         
         # Ensure no merge conflicts
         git reset --hard origin/gh-pages
