@@ -31,10 +31,12 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-    - name: Copy Playwright report to docs
+    - name: Copy Playwright report and logs to docs
       run: |
         mkdir -p docs
+        mkdir -p docs/logs
         cp -r playwright-report/* docs/
+        cp -r logs/* docs/logs/
     - name: Deploy to GitHub Pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -59,5 +61,5 @@ jobs:
         cp -r ../docs/* .
         
         git add .
-        git commit -m 'Update Playwright test results'
+        git commit -m 'Update Playwright test results and logs'
         git push origin gh-pages --force
