@@ -1,12 +1,16 @@
 import { test, expect } from '@playwright/test';
-import Ally from '../src/ally';
 import path from 'path';
+import App from '../src/app';
+
 const url = `file://${path.resolve(__dirname, 'apps/newspaper.html')}`;
 
+let app: App;
+
+test.beforeEach(async ({ page }) => {
+  app = new App(page);
+});
+
 test('should have no accessibility violations', async ({ page }) => {
-  const ally = new Ally();
-
   await page.goto(url);
-  await ally.verify(page);
-
+  await app.ally.verify(page);
 });
