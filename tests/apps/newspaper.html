@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90s Newspaper</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #1a237e;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 0;
+            font-size: 14px;
+        }
+        nav {
+            background-color: #283593;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            padding: 20px 0;
+        }
+        .main {
+            flex: 3;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #e8eaf6;
+            padding: 20px;
+        }
+        .article {
+            margin-bottom: 20px;
+        }
+        .article h2 {
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+        .article p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #1a237e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .low-contrast {
+            color: #ccc;
+        }
+        .clickable-div {
+            cursor: pointer;
+            background-color: #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="site-title">The Daily News</h1>
+            <p id="site-tagline">Leading the way in quality journalism since 1990</p>
+        </header>
+        <nav id="main-nav"></nav>
+        <div class="content">
+            <div class="main" id="main-content"></div>
+            <div class="sidebar" id="sidebar-content"></div>
+        </div>
+        <footer id="footer-content">
+            &copy; 1990 The Daily News. All rights reserved.
+        </footer>
+    </div>
+    <div>
+        <h3>Subscription Form</h3>
+        <form>
+            <input type="text" placeholder="Name"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+    <div>
+        <p class="low-contrast">This is some low-contrast text which is hard to read.</p>
+    </div>
+    <div>
+        <h3>Important Links</h3>
+        <ul id="important-links"></ul>
+    </div>
+    <div class="clickable-div">Click Me</div>
+    <div>
+        <table>
+            <tr>
+                <td>1990</td>
+                <td>Nelson Mandela's Release</td>
+            </tr>
+            <tr>
+                <td>1990</td>
+                <td>German Reunification</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        const data = {
+            title: "The Daily News",
+            tagline: "Leading the way in quality journalism since 1990",
+            navItems: ["Home", "World", "Politics", "Business", "Technology", "Sports", "Entertainment", "Health"],
+            articles: [
+                {
+                    headline: "End of the Cold War",
+                    content: "The Cold War officially came to an end with the signing of various treaties and the dissolution of the Soviet Union in December 1991. This marked a significant shift in global politics and the end of decades-long tensions between the United States and the Soviet Union."
+                },
+                {
+                    headline: "Nelson Mandela Released from Prison",
+                    content: "In February 1990, Nelson Mandela was released from Victor Verster Prison after 27 years of imprisonment. His release marked the beginning of the end for apartheid in South Africa, leading to Mandela becoming the country's first black president in 1994."
+                },
+                {
+                    headline: "Germany Reunification",
+                    content: "On October 3, 1990, East and West Germany were officially reunified after being separated since the end of World War II. This historic event marked the end of the division of Germany and the collapse of the Berlin Wall in 1989."
+                },
+                {
+                    headline: "Launch of the Hubble Space Telescope",
+                    content: "The Hubble Space Telescope was launched into space on April 24, 1990. This groundbreaking scientific instrument has provided some of the most detailed images of space and has been crucial in many astronomical discoveries."
+                },
+                {
+                    headline: "The World Wide Web Invented",
+                    content: "In 1990, Tim Berners-Lee, a British scientist, invented the World Wide Web (WWW). This invention revolutionized the way people access and share information, laying the groundwork for the modern internet."
+                }
+            ],
+            latestNews: [
+                "1990: Nelson Mandela's Release from Prison",
+                "1990: German Reunification",
+                "1990: Launch of the Hubble Space Telescope",
+                "1990: Tim Berners-Lee Creates the World Wide Web",
+                "1991: End of the Cold War",
+                "1992: Bill Clinton Elected President",
+                "1994: Nelson Mandela Elected President of South Africa"
+            ],
+            importantLinks: [
+                "Contact",
+                "About"
+            ]
+        };
+
+        document.getElementById('site-title').innerText = data.title;
+        document.getElementById('site-tagline').innerText = data.tagline;
+
+        const nav = document.getElementById('main-nav');
+        data.navItems.forEach(item => {
+            const a = document.createElement('a');
+            a.href = "#";
+            a.innerText = item;
+            nav.appendChild(a);
+        });
+
+        const mainContent = document.getElementById('main-content');
+        data.articles.forEach(article => {
+            const articleDiv = document.createElement('div');
+            articleDiv.className = 'article';
+            const h2 = document.createElement('h2');
+            h2.innerText = article.headline;
+            const p = document.createElement('p');
+            p.innerText = article.content;
+            articleDiv.appendChild(h2);
+            articleDiv.appendChild(p);
+            mainContent.appendChild(articleDiv);
+        });
+
+        const sidebarContent = document.getElementById('sidebar-content');
+        const sidebarH2 = document.createElement('h2');
+        sidebarH2.innerText = "Latest News";
+        sidebarContent.appendChild(sidebarH2);
+        const ul = document.createElement('ul');
+        data.latestNews.forEach(news => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = "#";
+            a.innerText = news;
+            li.appendChild(a);
+            ul.appendChild(li);
+        });
+        sidebarContent.appendChild(ul);
+
+        const importantLinks = document.getElementById('important-links');
+        data.importantLinks.forEach(link => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = "#";
+            a.innerText = link;
+            li.appendChild(a);
+            importantLinks.appendChild(li);
+        });
+
+        document.querySelector('.clickable-div').addEventListener('click', () => {
+            alert('Div clicked!');
+        });
+    </script>
+</body>
+</html>

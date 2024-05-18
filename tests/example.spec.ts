@@ -17,7 +17,7 @@ test.beforeEach(async ({ page }) => {
   await allure.tms("TMS-456", "https://example.com/tms/TMS-456");
 
   global.app = new Commands(page);
-  const filePath = path.resolve(__dirname, 'index.html');
+  const filePath = path.resolve(__dirname, 'apps/index.html');
 
   await global.app.go(`file://${filePath}`); 
 });
