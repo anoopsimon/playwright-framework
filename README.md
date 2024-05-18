@@ -11,3 +11,9 @@ Report live [here](https://anoopsimon.github.io/playwright-framework/)
 
 ```bash
 npx playwright test && npx playwright show-report
+```
+
+Allure report
+```
+npx allure generate --single-file --clean
+```

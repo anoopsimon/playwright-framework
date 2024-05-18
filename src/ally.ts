@@ -1,6 +1,9 @@
 import { Page } from 'playwright';
 import { injectAxe, checkA11y, configureAxe } from 'axe-playwright';
+import { allure } from 'allure-playwright';
 import logger from './logger';
+import * as fs from 'fs';
+import * as path from 'path';
 
 interface AllyConfig {
   runOnly?: {
@@ -51,6 +54,12 @@ class Ally {
       }
 
       // Run accessibility checks
+      const reportFilePath = path.join(
+        this.config.outputDirPath,
+        this.config.outputDir,
+        this.config.reportFileName
+      );
+
       await checkA11y(
         page,
         null,
@@ -72,6 +81,11 @@ class Ally {
           reportFileName: this.config.reportFileName,
         }
       );
+
+      // Attach the HTML report to the Allure report
+      const reportContent = fs.readFileSync(reportFilePath, 'utf8');
+      allure.attachment('Accessibility Audit Report', reportContent, 'text/html');
+
       logger.info('Accessibility check completed successfully');
     } catch (error) {
       logger.error('Error during accessibility verification:', error);

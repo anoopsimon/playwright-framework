@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import Commands from '../src/commands';
 import { Severity } from "allure-js-commons";
 import { allure } from "allure-playwright";
 import App from '../src/app';
@@ -19,7 +18,9 @@ test.beforeEach(async ({ page }) => {
   await allure.link("https://example.com/docs", "Related Documentation");
   await allure.issue("AUTH-123", "https://example.com/issues/AUTH-123");
   await allure.tms("TMS-456", "https://example.com/tms/TMS-456");
+  //import { allure } from "allure-playwright";
 
+  await allure.logStep("Sample step");
   //global.app = new Commands(page);
   const filePath = path.resolve(__dirname, 'apps/index.html');
 

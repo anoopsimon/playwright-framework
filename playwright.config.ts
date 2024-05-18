@@ -34,7 +34,9 @@ export default defineConfig({
         },
       ],
       environmentInfo: {
-        framework: "playwright",
+        framework: "Playwright",
+        environment:"UAT",
+        
       },
     },
   ],],
