@@ -1,8 +1,6 @@
 {
     "compilerOptions": {
       "esModuleInterop": true,
-      "strict": true,
-      "target": "ES6",
       "types": ["axe-playwright"]
     }
   }
