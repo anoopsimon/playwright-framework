@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <style>
+            .violationCard {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            .violationCardLine {
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+            }
+            .learnMore {
+                margin-bottom: 0.75rem;
+                white-space: nowrap;
+                color: #2557a7;
+            }
+            .card-link {
+                color: #2557a7;
+            }
+            .violationNode {
+                font-size: 0.75rem;
+            }
+            .wrapBreakWord {
+                word-break: break-word;
+            }
+            .summary {
+                font-size: 1rem;
+            }
+            .summarySection {
+                margin: 0.5rem 0;
+            }
+            .hljs {
+                white-space: pre-wrap;
+                width: 100%;
+                background: #f0f0f0;
+            }
+            p {
+                margin-top: 0.3rem;
+            }
+            li {
+                line-height: 1.618;
+            }
+        </style>
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/stackoverflow-light.min.css"
+        />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <link
+            rel="icon"
+            href="https://www.deque.com/wp-content/uploads/2018/03/cropped-DQ_SecondaryLogo_HeroBlue_RGB-1-32x32.png"
+            sizes="32x32"
+        />
+        <title>AXE Accessibility Results</title>
+    </head>
+    <body>
+        <div style="padding: 2rem">
+            <h3>
+                AXE Accessibility Results
+            </h3>
+            <div class="summarySection">
+            </div>
+            <h5>axe-core found <span class="badge badge-warning">1</span> violation</h5>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th style="width: 5%">#</th>
+                        <th style="width: 45%">Description</th>
+                        <th style="width: 15%">Axe rule ID</th>
+                        <th style="width: 23%">WCAG</th>
+                        <th style="width: 7%">Impact</th>
+                        <th style="width: 5%">Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><a href="#1" class="card-link">1</a></th>
+                        <td>Form elements must have labels</td>
+                        <td>label</td>
+                        <td>WCAG 2 Level A, WCAG 4.1.2</td>
+                        <td>critical</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Failed</h3>
+            <div class="card violationCard">
+                <div class="card-body">
+                    <div class="violationCardLine">
+                        <h5 class="card-title violationCardTitleItem">
+                            <a id="1">1.</a> Form elements must have labels
+                        </h5>
+                        <a
+                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.9&#x2F;label?application&#x3D;axeAPI"
+                            target="_blank"
+                            class="card-link violationCardTitleItem learnMore"
+                            >Learn more</a
+                        >
+                    </div>
+                    <div class="violationCardLine">
+                        <h6 class="card-subtitle mb-2 text-muted">label</h6>
+                        <h6 class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            WCAG 2 Level A, WCAG 4.1.2
+                        </h6>
+                    </div>
+                    <div class="violationCardLine">
+                        <p class="card-text">Ensures every form element has a label</p>
+                        <h6 class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            critical
+                        </h6>
+                    </div>
+                    <div class="violationCardLine">
+                        <h6 class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            Issue Tags: 
+                            <span class="badge bg-light text-dark"> cat.forms </span>
+
+                            <span class="badge bg-light text-dark"> wcag2a </span>
+
+                            <span class="badge bg-light text-dark"> wcag412 </span>
+
+                            <span class="badge bg-light text-dark"> section508 </span>
+
+                            <span class="badge bg-light text-dark"> section508.22.n </span>
+
+                            <span class="badge bg-light text-dark"> TTv5 </span>
+
+                            <span class="badge bg-light text-dark"> TT5.c </span>
+
+                            <span class="badge bg-light text-dark"> EN-301-549 </span>
+
+                            <span class="badge bg-light text-dark"> EN-9.4.1.2 </span>
+
+                            <span class="badge bg-light text-dark"> ACT </span>
+                        </h6>
+                    </div>
+                    <div class="violationNode">
+                        <table class="table table-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 2%">#</th>
+                                    <th style="width: 49%">Issue Description</th>
+                                    <th style="width: 49%">
+                                        To solve this violation, you need to...
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">input[type&#x3D;&quot;password&quot;]</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;input type&#x3D;&quot;password&quot; name&#x3D;&quot;password&quot; required&#x3D;&quot;&quot;&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Form element does not have an implicit (wrapped) &lt;label&gt;</li>
+                                                <li>  Form element does not have an explicit &lt;label&gt;</li>
+                                                <li>  aria-label attribute does not exist or is empty</li>
+                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+                                                <li>  Element has no title attribute</li>
+                                                <li>  Element has no placeholder attribute</li>
+                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+    </body>
+</html>
