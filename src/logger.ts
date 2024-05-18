@@ -1,8 +1,6 @@
-// src/logger.ts
 import { createLogger, format, transports } from 'winston';
 import path from 'path';
 
-// Define the log file path
 const logFilePath = path.join(__dirname, '../logs/app.log');
 
 const logger = createLogger({
@@ -13,7 +11,7 @@ const logger = createLogger({
   ),
   transports: [
     new transports.Console(),
-    new transports.File({ filename: logFilePath }) // Add file transport
+    new transports.File({ filename: logFilePath }) 
   ],
 });
 
