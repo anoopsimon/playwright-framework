@@ -1,55 +1,13 @@
-# Contribution
 Acceptance Criteria
 
 User Story:
-As a developer, I want a structured folder setup for the stubbing service so that I can efficiently organize and extend mocks for different types of services.
+As a developer, I want to create the smallest service stub for the ABC application to mock an HTTP REST API response.
 
 Acceptance Criteria:
 
-	1.	Folder Structure:
-	•	Given the ABC app repository is organized,
-	•	When the stubbing solution PQR is implemented,
-	•	Then it should contain separate folders for gRPC mocks and REST mocks, with the capability to add new folders for additional service types in the future.
-	2.	Data Placement:
-	•	Given the need to store response data for mocks,
-	•	When mock responses are created,
-	•	Then JSON and XML files should be placed in a data folder within each subfolder for the respective applications.
-
-Readme Format for Folder Structure
-
-ABC (Source Code Repository)
-│
-├── src (Source Code)
-│
-├── tests
-│   ├── PQR (Stubbing Solution)
-│   │   ├── grpc
-│   │   │   ├── applicationX
-│   │   │   │   ├── data
-│   │   │   │   │   ├── response1.json
-│   │   │   │   │   └── response2.json
-│   │   │   ├── applicationY
-│   │   │   │   ├── data
-│   │   │   │   │   ├── response1.json
-│   │   │   │   │   └── response2.json
-│   │   │   └── applicationZ
-│   │   │       ├── data
-│   │   │       │   ├── response1.json
-│   │   │       │   └── response2.json
-│   │   ├── rest
-│   │       ├── applicationA
-│   │       │   ├── data
-│   │       │   │   ├── response1.json
-│   │       │   │   └── response2.json
-│   │       ├── applicationB
-│   │       │   ├── data
-│   │       │   │   ├── response1.json
-│   │       │   │   └── response2.json
-│   │       └── applicationC
-│   │           ├── data
-│   │           │   ├── response1.json
-│   │           │   └── response2.json
-│
-└── README.md (Documentation)
-
-This format ensures clarity and ease of understanding for organizing and extending the stubbing solution.
+	1.	Basic Valid Token Request:
+	•	Given a mock REST API server is implemented,
+	•	When it receives a POST request to request a system token for the ABC application with valid parameters (such as scope and other required information in the payload),
+	•	Then it should return a JSON response with a valid JWT token according to the HTTP REST protocol.
+	2.	Advanced Use Case (Not in Scope):
+	•	Note: Advanced scenarios such as handling invalid system token requests, returning bad request responses, or providing incorrect tokens for different use cases are not within the scope of this user story.
