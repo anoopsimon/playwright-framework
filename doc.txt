@@ -1,65 +1,15 @@
-https://www.jenkins.io/blog/2022/12/27/run-jenkins-agent-as-a-service/
+User Story:
+As a developer, I want to create a structure for the mocking solution within the application so that I can efficiently test and develop against predictable and controlled service responses.
 
+Acceptance Criteria:
 
-Certainly! Below is the updated script that prompts the user to enter the necessary information when the script is run.
+Given the mock service is implemented and it is ready to be used and configured in the application,
+When the docker image of this mocking solution is built,
+Then it should be able to spin up a container that hosts the mock server using the Flimflam solution on localhost or a hosted server.
 
-```bash
-#!/bin/bash
+Given the mock service is part of the application’s deployment process,
+When the docker-compose file is used to deploy the application in test environments,
+Then the mock server container should be spun up as part of the whole deployment process,
+And access to this running container of the mock service should be enabled so that it can be configured in the application once it is deployed.
 
-# Prompt the user for inputs
-read -p "Enter the Jenkins URL (e.g., http://your-jenkins-url.com): " JENKINS_URL
-read -p "Enter the node name: " NODE_NAME
-read -p "Enter the secret key: " SECRET_KEY
-read -p "Enter the agent directory (default: /home/jenkins): " AGENT_DIR
-
-# Set default agent directory if not provided
-AGENT_DIR=${AGENT_DIR:-/home/jenkins}
-AGENT_JAR="$AGENT_DIR/agent.jar"
-
-# Create the agent directory
-sudo mkdir -p $AGENT_DIR
-
-# Download the Jenkins agent jar
-curl -sSL -o $AGENT_JAR "$JENKINS_URL/jnlpJars/agent.jar"
-
-# Create the service file
-sudo tee /etc/systemd/system/jenkins-agent.service > /dev/null <<EOL
-[Unit]
-Description=Jenkins Agent
-After=network.target
-
-[Service]
-User=jenkins
-ExecStart=/usr/bin/java -jar $AGENT_JAR -jnlpUrl $JENKINS_URL/computer/$NODE_NAME/jenkins-agent.jnlp -secret $SECRET_KEY
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-EOL
-
-# Reload systemd to recognize the new service
-sudo systemctl daemon-reload
-
-# Enable the service to start on boot
-sudo systemctl enable jenkins-agent
-
-# Start the Jenkins agent service
-sudo systemctl start jenkins-agent
-
-# Check the status of the service
-sudo systemctl status jenkins-agent
-```
-
-### Steps to Run the Script:
-
-1. Save the script to a file, for example, `setup_jenkins_agent.sh`.
-2. Make the script executable:
-   ```bash
-   chmod +x setup_jenkins_agent.sh
-   ```
-3. Run the script with `sudo` to ensure it has the necessary permissions:
-   ```bash
-   sudo ./setup_jenkins_agent.sh
-   ```
-
-When you run the script, it will prompt you to enter the Jenkins URL, node name, secret key, and agent directory. It will then use these inputs to set up the Jenkins agent as a service.
+This format ensures that all necessary steps and conditions are clear and that the mock service integrates smoothly into your deployment process.
