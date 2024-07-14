@@ -1,15 +1,54 @@
+Acceptance Criteria
+
 User Story:
-As a developer, I want to create a structure for the mocking solution within the application so that I can efficiently test and develop against predictable and controlled service responses.
+As a developer, I want a structured folder setup for the stubbing service so that I can efficiently organize and extend mocks for different types of services.
 
 Acceptance Criteria:
 
-Given the mock service is implemented and it is ready to be used and configured in the application,
-When the docker image of this mocking solution is built,
-Then it should be able to spin up a container that hosts the mock server using the Flimflam solution on localhost or a hosted server.
+	1.	Folder Structure:
+	•	Given the ABC app repository is organized,
+	•	When the stubbing solution PQR is implemented,
+	•	Then it should contain separate folders for gRPC mocks and REST mocks, with the capability to add new folders for additional service types in the future.
+	2.	Data Placement:
+	•	Given the need to store response data for mocks,
+	•	When mock responses are created,
+	•	Then JSON and XML files should be placed in a data folder within each subfolder for the respective applications.
 
-Given the mock service is part of the application’s deployment process,
-When the docker-compose file is used to deploy the application in test environments,
-Then the mock server container should be spun up as part of the whole deployment process,
-And access to this running container of the mock service should be enabled so that it can be configured in the application once it is deployed.
+Readme Format for Folder Structure
 
-This format ensures that all necessary steps and conditions are clear and that the mock service integrates smoothly into your deployment process.
+ABC (Source Code Repository)
+│
+├── src (Source Code)
+│
+├── tests
+│   ├── PQR (Stubbing Solution)
+│   │   ├── grpc
+│   │   │   ├── applicationX
+│   │   │   │   ├── data
+│   │   │   │   │   ├── response1.json
+│   │   │   │   │   └── response2.json
+│   │   │   ├── applicationY
+│   │   │   │   ├── data
+│   │   │   │   │   ├── response1.json
+│   │   │   │   │   └── response2.json
+│   │   │   └── applicationZ
+│   │   │       ├── data
+│   │   │       │   ├── response1.json
+│   │   │       │   └── response2.json
+│   │   ├── rest
+│   │       ├── applicationA
+│   │       │   ├── data
+│   │       │   │   ├── response1.json
+│   │       │   │   └── response2.json
+│   │       ├── applicationB
+│   │       │   ├── data
+│   │       │   │   ├── response1.json
+│   │       │   │   └── response2.json
+│   │       └── applicationC
+│   │           ├── data
+│   │           │   ├── response1.json
+│   │           │   └── response2.json
+│
+└── README.md (Documentation)
+
+This format ensures clarity and ease of understanding for organizing and extending the stubbing solution.
