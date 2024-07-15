@@ -1,66 +1,57 @@
-# S3Util Development Guide
 
-## Overview
+# AutoX Java Kafka Util
 
-The `S3Util` class, available in the comments module, is built using the AWS SDK S3 library. It provides a simple utility class, `AWSS3Util.java`, which contains methods required to interact with an AWS S3 bucket. This solution is designed to work both with a local stack container containing an S3 bucket and the AWS-hosted S3 server.
+## Kafka Util Overview
 
-## Prerequisites
+### 1. Introduction to Kafka Util
 
-1. Docker and Docker Compose installed on your machine.
-2. AWS CLI installed.
-3. Docker daemon running.
-4. For Rancher Desktop users, enable the Docker daemon with the command:
-    ```sh
-    docker context use rancher-desktop
-    ```
+AutoX Java REST module contains the Kafka Util, which helps interact with Kafka topics by producing and consuming messages and asserting JSON responses received from the topic. This basic Kafka Util can be extended depending on project demands.
 
-## Setup LocalStack with S3
+### 2. Current Kafka Development and Automation Frameworks in the Bank
 
-1. In the comments project, locate the `localstack.yaml` file. This file contains the setup required to spin up a LocalStack with an S3 bucket.
-2. Run the following command to start the LocalStack Docker container:
-    ```sh
-    docker-compose -f localstack.yaml up
-    ```
+Within the bank, most Kafka development is done using the BSERV framework, developed with Spring Boot for developing and deploying Kafka. Teams using Kafka for distributed event store and stream processing platform and the testing team require automation features to connect to Kafka topics, post messages, and read messages. Scenarios include:
+- Posting messages to a topic
+- Consuming messages from a topic
+- Both posting and consuming messages
 
-## LocalStack Endpoint
+Features of the Kafka Util include:
+- Seamless integration with Kafka topics
+- Posting messages
+- Consuming messages
+- Asserting received messages
 
-- The default port configured in the Docker Compose file is `4566`. This will be the LocalStack endpoint locally.
+Current automation frameworks:
+- **Karate**: Offers Kafka automation features and is heavily used within the bank.
+- **BSERV Framework's Kafka Utility**: Provides seamless integration with Kafka topics and works well with the BSERV framework used for building Kafka.
 
-## Interact with LocalStack S3 via Command Line
+### 3. Kafka Util Features in AutoX Java
 
-1. Set up the necessary environment variables for AWS access keys:
-    ```sh
-    export AWS_SECRET_ACCESS_KEY=anything
-    export AWS_DEFAULT_REGION=us-east-1
-    export AWS_ACCESS_KEY_ID=anything
-    ```
-2. List the S3 buckets in the LocalStack:
-    ```sh
-    aws --endpoint-url=http://localhost:4566 s3 ls
-    ```
+AutoX Java aims to standardize frameworks while providing Kafka automation. Features include:
+- Kafka client class exposing methods to connect to Kafka using properties stored in `AutoX.properties`
+- SSL certificate configuration for BSERV Kafka servers authentication
+- Methods to produce and consume messages
+- Methods to assert received messages
 
-## Development with S3Util
+### 4. Building and Maintaining Kafka Utility Locally
 
-- The `AWSS3Util.java` class contains methods for interacting with the S3 bucket.
-- Refer to the `AWSS3UtilTest.java` class for sample test cases demonstrating the usage of `S3Util`. These examples include:
-  - Configuring the utility with the endpoint, region, access key ID, and secret access key.
-  - Creating a bucket.
-  - Checking if a bucket exists.
-  - Uploading an object to a bucket.
-  - Checking if a bucket contains a particular object.
-  - Downloading an object as a file.
-  - Deleting an object from a bucket.
+To develop the Kafka Utility:
+1. Ensure Docker daemon, Rancher Desktop, and Docker Compose are installed and running.
+2. Use the `Kafka.yaml` file to set up a working Kafka environment locally:
+   ```sh
+   docker-compose -f kafka.yaml up
+   ```
+   This command will spin up Kafka locally and expose the broker on port 9092 by default.
 
-## Example Commands
+3. Access the Kafka client:
+   - `src/main/java/com/bank/autox/kafka/KafkaClient.java`
+   - Add new functionalities based on project requirements.
 
-```sh
-# Set AWS credentials for local stack
-export AWS_SECRET_ACCESS_KEY=blah
-export AWS_DEFAULT_REGION=us-east-1
-export AWS_ACCESS_KEY_ID=blah
+4. Configure AutoX framework in `src/test/resources/autox.properties` file:
+   - Kafka properties follow the format:
+     ```
+     kafka.[application-name].bootstrap-servers
+     kafka.[application-name].topic
+     ```
+   - This allows multiple Kafka configurations in the same properties file.
 
-# Start LocalStack with Docker Compose
-docker-compose -f localstack.yaml up
-
-# List S3 buckets in LocalStack
-aws --endpoint-url=http://localhost:4566 s3 ls
+5. Usage examples are provided in the Kafka client test file, loading configurations from `autox.properties` and seamlessly using produce and consume methods.
