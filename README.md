@@ -13,6 +13,13 @@ Report live [here](https://anoopsimon.github.io/playwright-framework/)
 npx playwright test && npx playwright show-report
 ```
 
+If there are test failures due missing browser exe please re run `npx playwright install` 
+
+Example error to look for :
+`Error: browserType.launch: Executable doesn't exist at C:\Users\xxxx\AppData\Local\ms-playwright\chromium-1140\chrome-win\chrome.exe
+`
+
+
 Allure report
 ```
 npx allure generate --single-file --clean
