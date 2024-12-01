@@ -1,0 +1,54 @@
+name: OWASP Dependency-Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  owasp-check:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Java (required for Dependency-Check)
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run OWASP Dependency-Check
+      run: |
+        dependency-check --scan . --out ./dependency-check-report --format HTML,JSON
+
+    - name: List directory contents for debugging
+      run: ls -R
+
+    - name: Upload OWASP Dependency-Check Report (HTML)
+      uses: actions/upload-artifact@v4
+      with:
+        name: dependency-check-report-html
+        path: ./dependency-check-report/*.html
+        retention-days: 90
+
+    - name: Upload OWASP Dependency-Check Report (JSON)
+      uses: actions/upload-artifact@v4
+      with:
+        name: dependency-check-report-json
+        path: ./dependency-check-report/*.json
+        retention-days: 90
+
+    - name: Copy reports to docs folder
+      run: |
+        mkdir -p docs/dependency-check
+        cp -r ./dependency-check-report/* docs/dependency-check/
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs

@@ -1,6 +1,22 @@
 {
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "types": ["axe-playwright"]
-    }
-  }
+  "compilerOptions": {
+    "target": "ES6",                        // Target ES6 for modern JavaScript features
+    "module": "commonjs",                   // Use CommonJS module system
+    "strict": true,                          // Enable strict type-checking
+    "esModuleInterop": true,                 // Allow default imports from CommonJS modules
+    "skipLibCheck": true,                    // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+    "types": ["axe-playwright", "node"],     // Include node types along with axe-playwright
+    "moduleResolution": "node",              // Ensure node-style module resolution
+    "resolveJsonModule": true,               // Allow importing JSON files
+    "allowJs": true,                         // Allow JavaScript files to be compiled
+    "noEmit": true                           // Do not generate output files (only type-check)
+  },
+  "include": [
+    "tests/**/*.ts",                         // Include all TypeScript files in tests directory
+    "playwright.config.ts"                   // Include Playwright config if present
+  ],
+  "exclude": [
+    "node_modules"                           // Exclude node_modules directory
+  ]
+}
