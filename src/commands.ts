@@ -1,30 +1,15 @@
-// src/commands.ts
 import { Page } from '@playwright/test';
 import logger from './logger';
 
 class Commands {
   private page: Page;
 
+  // Constructor ensures page is passed or throws an error
   constructor(page: Page) {
-    this.page = new Proxy(page, {
-      get: (target, prop, receiver) => {
-        const origMethod = target[prop as keyof Page];
-        if (typeof origMethod === 'function') {
-          return async (...args: any[]) => {
-            logger.info(`Calling method ${String(prop)} with arguments: ${JSON.stringify(args)}`);
-            try {
-              const result = await origMethod.apply(target, args);
-              logger.info(`Method ${String(prop)} succeeded`);
-              return result;
-            } catch (error) {
-              logger.error(`Method ${String(prop)} failed with error: ${error}`);
-              throw error;
-            }
-          };
-        }
-        return Reflect.get(target, prop, receiver);
-      }
-    });
+    if (!page) {
+      throw new Error("You must pass a page to access UI commands.");
+    }
+    this.page = page;
   }
 
   async go(url: string): Promise<void> {
@@ -61,12 +46,11 @@ class Commands {
     logger.info(`Getting text from selector: ${selector}`);
     const text = await this.page.textContent(selector);
     if (text === null) {
-        logger.error(`No text found for selector: ${selector}`);
-        throw new Error(`No text found for selector: ${selector}`);
+      logger.error(`No text found for selector: ${selector}`);
+      throw new Error(`No text found for selector: ${selector}`);
     }
     return text;
-}
-
+  }
 }
 
 export default Commands;

@@ -1,5 +1,5 @@
-import { Database } from "./database";
 import mysql from "mysql2/promise";
+import { Database } from "./database";
 
 export class MySQLDatabase<T> implements Database<T> {
   private connection: mysql.Connection | null = null;
@@ -23,7 +23,7 @@ export class MySQLDatabase<T> implements Database<T> {
     const query = `INSERT INTO ${this.tableName} (${keys}) VALUES (${placeholders})`;
     await this.connection!.execute(query, values);
   }
-  
+
   async read(filter: Partial<T>): Promise<T[]> {
     await this.initConnection();
     const keys = Object.keys(filter).map((key) => `${key} = ?`).join(" AND ");
@@ -32,7 +32,7 @@ export class MySQLDatabase<T> implements Database<T> {
     const [rows] = await this.connection!.execute<mysql.RowDataPacket[]>(query, values);
     return rows as T[];
   }
-  
+
   async update(filter: Partial<T>, data: Partial<T>): Promise<void> {
     await this.initConnection();
     const dataKeys = Object.keys(data).map((key) => `${key} = ?`).join(", ");
@@ -40,14 +40,13 @@ export class MySQLDatabase<T> implements Database<T> {
     const query = `UPDATE ${this.tableName} SET ${dataKeys} WHERE ${filterKeys}`;
     await this.connection!.execute(query, [...Object.values(data), ...Object.values(filter)]);
   }
-  
+
   async delete(filter: Partial<T>): Promise<void> {
     await this.initConnection();
     const keys = Object.keys(filter).map((key) => `${key} = ?`).join(" AND ");
     const values = Object.values(filter);
     const query = `DELETE FROM ${this.tableName} WHERE ${keys}`;
-    const [x, result] = await this.connection!.execute(query, values);
-  
+    const [result] = await this.connection!.execute<mysql.ResultSetHeader>(query, values);
+    console.log(`${result.affectedRows} row(s) deleted.`);
   }
-  
 }
