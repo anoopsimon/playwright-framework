@@ -6,7 +6,7 @@ import { appConfig } from '../config.js';
 const path = require('path');
 let app: App;
 
-skip('Insert To DB', async () => {
+test.skip('Insert To DB', async () => {
   const mysqlDB = new MySQLDatabase<{ id?: number; name: string; age: number }>(
     {
       host: appConfig.database.mysql.host,
