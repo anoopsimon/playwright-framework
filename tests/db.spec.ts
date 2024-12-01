@@ -6,6 +6,9 @@ test.beforeEach(async () => {
   interactor = new Interactor();
 });
 
+// Test to verify the basic CRUD operations (Create, Read, Update, Delete) on the MySQL database for a "User"
+// This test requires mysql docker container running . Command : cd ci && docker-compose up 
+
 test.skip('Insert To DB', async () => {
 
   await interactor.db.mysql.create({ name: "John Doe", age: 28 });
