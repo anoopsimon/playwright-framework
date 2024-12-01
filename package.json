@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "allure:generate": "npx allure generate --single-file --clean",
+     "blackbox": "npx playwright test && npm run allure:generate"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
