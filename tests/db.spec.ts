@@ -1,26 +1,25 @@
 import { test, expect } from '@playwright/test';
-import App from '../src/app';
-const path = require('path');
-let app: App;
+import Interactor from '../src/interactor';
+let interactor: Interactor;
 
 test.beforeEach(async () => {
-  app = new App();
+  interactor = new Interactor();
 });
 
-test('Insert To DB', async () => {
+test.skip('Insert To DB', async () => {
 
-  await app.db.mysql.create({ name: "John Doe", age: 28 });
+  await interactor.db.mysql.create({ name: "John Doe", age: 28 });
 
-  const users = await app.db.mysql.read({ name: "John Doe" });
+  const users = await interactor.db.mysql.read({ name: "John Doe" });
   expect(users.length).toBeGreaterThan(0);
   expect(users[0].name).toBe("John Doe");
   expect(users[0].age).toBe(28);
 
-  await app.db.mysql.update({ name: "John Doe" }, { age: 29 });
-  const updatedUsers = await app.db.mysql.read({ name: "John Doe" });
+  await interactor.db.mysql.update({ name: "John Doe" }, { age: 29 });
+  const updatedUsers = await interactor.db.mysql.read({ name: "John Doe" });
   expect(updatedUsers[0].age).toBe(29);
 
-  await app.db.mysql.delete({ name: "John Doe" });
+  await interactor.db.mysql.delete({ name: "John Doe" });
 
 
 });

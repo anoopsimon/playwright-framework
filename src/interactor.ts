@@ -4,7 +4,7 @@ import { Page } from 'playwright';
 import { MySQLDatabase } from "./mysql-database";
 import { MongoDBDatabase } from "./mongo-databse";
 
-class App {
+class Interactor {
   ally: Ally;
   ui?: Commands; // make ui optional
   db: {
@@ -35,4 +35,4 @@ class App {
   }
 }
 
-export default App;
+export default Interactor;
