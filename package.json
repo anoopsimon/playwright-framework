@@ -16,6 +16,8 @@
   "dependencies": {
     "axe-core": "^4.9.1",
     "axe-playwright": "^2.0.1",
+    "mongodb": "^6.11.0",
+    "mysql2": "^3.11.5",
     "winston": "^3.13.0"
   }
 }
