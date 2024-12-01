@@ -16,14 +16,20 @@ jobs:
     - name: Set up Java (required for Dependency-Check)
       uses: actions/setup-java@v2
       with:
+        distribution: 'temurin'
         java-version: '11'
 
     - name: Install dependencies
       run: npm ci
 
-    - name: Run OWASP Dependency-Check
+    - name: Install OWASP Dependency-Check
       run: |
-        dependency-check --scan . --out ./dependency-check-report --format HTML,JSON
+        wget https://dl.bintray.com/jeremy-long/ossindex/dependency-check-7.0.4-release.zip
+        unzip dependency-check-7.0.4-release.zip -d /opt/dependency-check
+
+    - name: Run OWASP Dependency-Check (with distribution)
+      run: |
+        /opt/dependency-check/bin/dependency-check.sh --scan . --out ./dependency-check-report --format HTML,JSON --project "My Project" --dependency-check-distribution npm
 
     - name: List directory contents for debugging
       run: ls -R
