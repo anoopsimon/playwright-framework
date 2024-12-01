@@ -6,3 +6,4 @@ node_modules/
 /logs/
 /allure-results
 /allure-report
+/allure-report/index.html

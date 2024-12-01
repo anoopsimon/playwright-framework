@@ -10,7 +10,6 @@ test.beforeEach(async () => {
 // This test requires mysql docker container running . Command : cd ci && docker-compose up 
 
 test.skip('My SQL database testing example', async () => {
-
   await interactor.db.mysql.create({ name: "John Doe", age: 28 });
 
   const users = await interactor.db.mysql.read({ name: "John Doe" });
