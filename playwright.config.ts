@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import { testPlanFilter } from "allure-playwright/dist/testplan";
+import { appConfig } from './config';
 
 /**
  * Read environment variables from file.
@@ -49,6 +50,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+
   },
 
   /* Configure projects for major browsers */

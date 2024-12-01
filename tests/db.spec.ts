@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import App from '../src/app';
 import { MySQLDatabase } from "../src/mysql-database";
+import { appConfig } from '../config.js'; 
 
 const path = require('path');
 let app: App;
@@ -8,10 +9,10 @@ let app: App;
 test('Insert To DB', async () => {
   const mysqlDB = new MySQLDatabase<{ id?: number; name: string; age: number }>(
     {
-      host: "localhost",
-      user: "sampleuser",
-      password: "samplepass",
-      database: "sampledb"
+      host: appConfig.database.mysql.host,
+      user: appConfig.database.mysql.user,
+      password: appConfig.database.mysql.password,
+      database: appConfig.database.mysql.database
     },
     "users"
   );
@@ -29,4 +30,3 @@ test('Insert To DB', async () => {
     expect(updatedUsers[0].age).toBe(29);
 
 });
-
