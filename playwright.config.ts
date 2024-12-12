@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 import { testPlanFilter } from "allure-playwright/dist/testplan";
 import { appConfig } from './config';
+import InfluxReporter from './influx-reporter';
 
 /**
  * Read environment variables from file.
@@ -22,8 +23,10 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html', { outputFolder: 'playwright-report' }],[
+  reporter: [['html', { outputFolder: 'playwright-report' }],
+  [
     "allure-playwright",
+    
     {
       detail: true,
       outputFolder: "allure-results",
@@ -40,7 +43,7 @@ export default defineConfig({
         
       },
     },
-  ],],
+  ],['./influx-reporter.ts']],
   grep: testPlanFilter(),
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
